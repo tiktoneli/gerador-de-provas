@@ -1,0 +1,166 @@
+{
+  "enem": {
+    "nome": "ENEM — Exame Nacional do Ensino Médio",
+    "alternativas": 5,
+    "redacao_dia": "dia1",
+    "template": "templates/enem.docx",
+    "dificuldade_range": [1, 5],
+    "dificuldade_distribuicao": {"1": 0.10, "2": 0.20, "3": 0.40, "4": 0.20, "5": 0.10},
+    "dias": {
+      "dia1": {
+        "nome": "1º Dia — Linguagens e Ciências Humanas",
+        "blocos": [
+          {"disciplina": "Portugues",  "quantidade": 45, "exibicao": "Linguagens, Códigos e suas Tecnologias"},
+          {"disciplina": "Historia",   "quantidade": 23, "exibicao": "Ciências Humanas e suas Tecnologias"},
+          {"disciplina": "Geografia",  "quantidade": 22, "exibicao": "Ciências Humanas e suas Tecnologias"}
+        ]
+      },
+      "dia2": {
+        "nome": "2º Dia — Ciências da Natureza e Matemática",
+        "blocos": [
+          {"disciplina": "Fisica",     "quantidade": 15, "exibicao": "Ciências da Natureza e suas Tecnologias"},
+          {"disciplina": "Quimica",    "quantidade": 15, "exibicao": "Ciências da Natureza e suas Tecnologias"},
+          {"disciplina": "Biologia",   "quantidade": 15, "exibicao": "Ciências da Natureza e suas Tecnologias"},
+          {"disciplina": "Matematica", "quantidade": 45, "exibicao": "Matemática e suas Tecnologias"}
+        ]
+      }
+    }
+  },
+  "uerj": {
+    "nome": "UERJ — Universidade do Estado do Rio de Janeiro",
+    "alternativas": 4,
+    "redacao_dia": null,
+    "template": "templates/uerj.docx",
+    "dificuldade_range": [2, 4],
+    "dificuldade_distribuicao": null,
+    "dias": {
+      "dia1": {
+        "nome": "Exame de Qualificação — Prova Objetiva",
+        "blocos": [
+          {"disciplina": "Portugues",  "quantidade": 20, "exibicao": "Língua Portuguesa"},
+          {"disciplina": "Matematica", "quantidade": 20, "exibicao": "Matemática"},
+          {"disciplina": "Historia",   "quantidade": 10, "exibicao": "História"},
+          {"disciplina": "Geografia",  "quantidade": 10, "exibicao": "Geografia"},
+          {"disciplina": "Fisica",     "quantidade":  5, "exibicao": "Física"},
+          {"disciplina": "Quimica",    "quantidade":  5, "exibicao": "Química"},
+          {"disciplina": "Biologia",   "quantidade":  5, "exibicao": "Biologia"},
+          {"disciplina": "Ingles",     "quantidade":  5, "exibicao": "Inglês"}
+        ]
+      }
+    }
+  },
+  "colegio_naval": {
+    "nome": "Colégio Naval",
+    "alternativas": 5,
+    "redacao_dia": "dia2",
+    "template": "templates/colegio_naval.docx",
+    "dificuldade_range": [1, 3],
+    "dificuldade_distribuicao": {"1": 0.20, "2": 0.30, "3": 0.50},
+    "dias": {
+      "dia1": {
+        "nome": "1º Dia",
+        "blocos": [
+          {"disciplina": "Matematica", "quantidade": 20, "exibicao": "Matemática"},
+          {"disciplina": "Ingles",     "quantidade": 20, "exibicao": "Inglês"}
+        ]
+      },
+      "dia2": {
+        "nome": "2º Dia",
+        "blocos": [
+          {"disciplina": "Portugues",       "quantidade": 20, "exibicao": "Português"},
+          {"disciplina": "Estudos_Sociais", "quantidade": 12, "exibicao": "Estudos Sociais"},
+          {"disciplina": "Ciencias",        "quantidade": 18, "exibicao": "Ciências"}
+        ]
+      }
+    }
+  },
+  "espcex": {
+    "nome": "EsPCEx — Escola Preparatória de Cadetes do Exército",
+    "alternativas": 5,
+    "redacao_dia": "dia1",
+    "template": "templates/espcex.docx",
+    "dificuldade_range": [2, 4],
+    "dificuldade_distribuicao": {"2": 0.30, "3": 0.50, "4": 0.20},
+    "dias": {
+      "dia1": {
+        "nome": "1º Dia",
+        "blocos": [
+          {"disciplina": "Portugues", "quantidade": 20, "exibicao": "Língua Portuguesa"},
+          {"disciplina": "Fisica",    "quantidade": 12, "exibicao": "Física"},
+          {"disciplina": "Quimica",   "quantidade": 12, "exibicao": "Química"}
+        ]
+      },
+      "dia2": {
+        "nome": "2º Dia",
+        "blocos": [
+          {"disciplina": "Matematica", "quantidade": 20, "exibicao": "Matemática"},
+          {"disciplina": "Geografia",  "quantidade": 12, "exibicao": "Geografia"},
+          {"disciplina": "Historia",   "quantidade": 12, "exibicao": "História"},
+          {"disciplina": "Ingles",     "quantidade": 12, "exibicao": "Inglês"}
+        ]
+      }
+    }
+  },
+  "efomm": {
+    "nome": "EFOMM — Escola de Formação de Oficiais da Marinha Mercante",
+    "alternativas": 5,
+    "redacao_dia": null,
+    "template": "templates/efomm.docx",
+    "dificuldade_range": [2, 4],
+    "dificuldade_distribuicao": null,
+    "dias": {
+      "dia1": {
+        "nome": "1º Dia",
+        "blocos": [
+          {"disciplina": "Portugues", "quantidade": 20, "exibicao": "Língua Portuguesa"},
+          {"disciplina": "Ingles",    "quantidade": 20, "exibicao": "Inglês"}
+        ]
+      },
+      "dia2": {
+        "nome": "2º Dia",
+        "blocos": [
+          {"disciplina": "Matematica", "quantidade": 20, "exibicao": "Matemática"},
+          {"disciplina": "Fisica",     "quantidade": 20, "exibicao": "Física"}
+        ]
+      }
+    }
+  },
+  "epcar": {
+    "nome": "EPCAr — Escola Preparatória de Cadetes do Ar",
+    "alternativas": 4,
+    "redacao_dia": "dia1",
+    "template": "templates/epcar.docx",
+    "dificuldade_range": [2, 4],
+    "dificuldade_distribuicao": {"2": 0.25, "3": 0.50, "4": 0.25},
+    "dias": {
+      "dia1": {
+        "nome": "Prova Objetiva",
+        "blocos": [
+          {"disciplina": "Portugues",  "quantidade": 12, "exibicao": "Língua Portuguesa"},
+          {"disciplina": "Matematica", "quantidade": 12, "exibicao": "Matemática"},
+          {"disciplina": "Fisica",     "quantidade":  8, "exibicao": "Física"},
+          {"disciplina": "Ingles",     "quantidade":  8, "exibicao": "Inglês"},
+          {"disciplina": "Historia",   "quantidade":  4, "exibicao": "História"},
+          {"disciplina": "Geografia",  "quantidade":  4, "exibicao": "Geografia"}
+        ]
+      }
+    }
+  },
+  "cbmerj": {
+    "nome": "CBMERJ — Corpo de Bombeiros Militar do Estado do Rio de Janeiro",
+    "alternativas": 5,
+    "redacao_dia": null,
+    "template": "templates/cbmerj.docx",
+    "dificuldade_range": [1, 4],
+    "dificuldade_distribuicao": null,
+    "dias": {
+      "dia1": {
+        "nome": "Prova Objetiva",
+        "blocos": [
+          {"disciplina": "Portugues",  "quantidade": 30, "exibicao": "Língua Portuguesa"},
+          {"disciplina": "Matematica", "quantidade": 30, "exibicao": "Matemática"}
+        ]
+      }
+    }
+  }
+}

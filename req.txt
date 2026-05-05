@@ -1,0 +1,6 @@
+input - sintetizar questões de qualquer matéria - .csv
+divisão por dificuldade em escala de 1 (inclusivo) a 5 (inclusivo) - 
+    dificuldades: funcionalidade de geração com distribuição de questões com dificuldades variadas, a depender a banca em questão. (eg. colégio naval - questões com range 1 a 3 a uma distribuição 20% dificuldades 1, 30% dificuldades 2 e 50% dificuldades 3) - aqui é possível aplicar um design pattern strategy onde cada banca tem uma configuração específica. Pode tornar uma parte da configurável da GUI, com valores padrões hardcoded modificáveis em código pré-runtime.
+
+a escolher uma banca, suas configurações devem ser aplicadas à prova final gerada - com suas próprias configurações visuais e estruturais (quantidade de questões, distribuição de dificuldades necessária etc.) - Ponto complexo que requer mais aprofundamento em maneiras de tornar prgramável dinâmicamente, visto que estaremos gerando arquivos WORD (.doc / .docx), logo, algumas provas podem ter páginas extras para detalhamentos, figuras, créditos ou fontes de figuras, etc.
+ao gerar uma prova, guardá-la em uma nova pasta com o timestamp e banca no título.

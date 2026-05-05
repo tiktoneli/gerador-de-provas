@@ -1,0 +1,301 @@
+id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
+1,Matematica,Funcoes,"Se f(x) = 3x - 1, entao f(4) e igual a:",11,13,9,7,15,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+2,Matematica,Funcoes,A funcao f(x) = x² - 4x + 4 pode ser reescrita como:,( x-2)²,( x+2)²,(x-2)(x+2),(x-4)²,x²-4,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+3,Matematica,Funcoes,As raizes reais da equacao x² - 5x + 6 = 0 sao:,x=2 e x=3,x=1 e x=6,x=-2 e x=-3,x=2 e x=-3,x=5 e x=-1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+4,Matematica,Funcoes,O vertice da parabola f(x) = x² - 4x + 3 e o ponto:,"(2, -1)","(2, 3)","(-2, 1)","(4, 3)","(1, 0)",A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+5,Matematica,Funcoes,Se log₂(x) = 5 entao x e igual a:,32,10,25,64,16,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+6,Matematica,Funcoes,A funcao f(x) = 2^x assume o valor 64 quando x e igual a:,6,5,7,8,4,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+7,Matematica,Funcoes,O valor maximo da funcao f(x) = -x² + 6x - 5 e:,4,5,6,3,1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+8,Matematica,Funcoes,Para qual valor de x a funcao f(x) = 2x - 10 se anula?,5,-5,10,-10,2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+9,Matematica,Funcoes,O dominio da funcao f(x) = raiz(x + 5) e o conjunto:,x ≥ -5,x > -5,x ≤ 5,x ≥ 5,todos os reais,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+10,Matematica,Funcoes,A soma das raizes da equacao x² - 9x + 14 = 0 e:,9,14,7,2,5,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+11,Matematica,Funcoes,O produto das raizes da equacao x² - 7x + 12 = 0 e:,12,-7,7,-12,3,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+12,Matematica,Funcoes,Se f(x) = 2^x e g(x) = x + 1 entao f(g(2)) e igual a:,8,4,16,6,32,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+13,Matematica,Geometria Plana,A area de um quadrado de lado 6 cm e:,36 cm²,24 cm²,12 cm²,48 cm²,18 cm²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+14,Matematica,Geometria Plana,O perimetro de um retangulo com lados 4 cm e 7 cm e:,22 cm,28 cm,11 cm,14 cm,18 cm,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+15,Matematica,Geometria Plana,A area de um triangulo com base 10 cm e altura 6 cm e:,30 cm²,60 cm²,16 cm²,20 cm²,15 cm²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+16,Matematica,Geometria Plana,A area de um circulo com raio 5 cm e igual a (use π):,25π cm²,10π cm²,5π cm²,50π cm²,100π cm²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+17,Matematica,Geometria Plana,Dois angulos sao suplementares e um mede 70°. O outro mede:,110°,20°,120°,160°,90°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+18,Matematica,Geometria Plana,No triangulo retangulo a hipotenusa mede 13 cm e um cateto mede 5 cm. O outro cateto mede:,12 cm,8 cm,10 cm,11 cm,6 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+19,Matematica,Geometria Plana,A soma dos angulos internos de um hexagono regular e:,720°,540°,360°,900°,1080°,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+20,Matematica,Geometria Plana,A diagonal de um quadrado de lado 4 cm mede:,4√2 cm,4 cm,8 cm,2√2 cm,√2 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+21,Matematica,Geometria Plana,Num triangulo isosceles os angulos da base medem 65° cada. O angulo do vertice mede:,50°,70°,55°,130°,115°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+22,Matematica,Geometria Plana,A area de um losango com diagonais 6 cm e 8 cm e:,24 cm²,48 cm²,12 cm²,36 cm²,28 cm²,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+23,Matematica,Geometria Espacial,O volume de um cubo com aresta de 4 cm e:,64 cm³,16 cm³,48 cm³,32 cm³,96 cm³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+24,Matematica,Geometria Espacial,A area total de um cubo com aresta de 3 cm e:,54 cm²,36 cm²,27 cm²,18 cm²,72 cm²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+25,Matematica,Geometria Espacial,O volume de um paralelepipedo com dimensoes 2 cm x 4 cm x 5 cm e:,40 cm³,22 cm³,11 cm³,80 cm³,20 cm³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+26,Matematica,Geometria Espacial,O volume de um cilindro com raio 3 cm e altura 5 cm e:,45π cm³,15π cm³,30π cm³,90π cm³,9π cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+27,Matematica,Geometria Espacial,O volume de uma esfera com raio 3 cm e:,36π cm³,9π cm³,4π cm³,108π cm³,27π cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+28,Matematica,Geometria Espacial,Uma piramide quadrangular tem base de lado 6 cm e altura 4 cm. Seu volume e:,48 cm³,144 cm³,72 cm³,96 cm³,24 cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+29,Matematica,Trigonometria,O seno de 30° e igual a:,1/2,√3/2,1,√2/2,0,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+30,Matematica,Trigonometria,O cosseno de 60° e igual a:,1/2,√3/2,1,0,√2/2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+31,Matematica,Trigonometria,A tangente de 45° e igual a:,1,0,√3,√2,1/2,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+32,Matematica,Trigonometria,Em um triangulo retangulo o angulo agudo e 30° e a hipotenusa mede 10 cm. O cateto oposto mede:,5 cm,8 cm,10 cm,3 cm,7 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+33,Matematica,Trigonometria,A identidade trigonometrica sen²(x) + cos²(x) e sempre igual a:,1,0,2,sen(2x),cos(2x),A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+34,Matematica,Trigonometria,Se sen(x) = 3/5 e x esta no primeiro quadrante entao cos(x) e:,4/5,3/4,5/3,3/5,5/4,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+35,Matematica,Progressoes,Na PA (2; 5; 8; 11; ...) a razao e:,3,2,4,5,1,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+36,Matematica,Progressoes,O decimo termo da PA (1; 4; 7; ...) e:,28,25,31,40,19,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+37,Matematica,Progressoes,A soma dos 10 primeiros termos impares positivos (1; 3; 5; ...; 19) e:,100,50,55,45,90,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+38,Matematica,Progressoes,Na PG (2; 6; 18; 54; ...) a razao e:,3,2,4,6,9,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+39,Matematica,Progressoes,O 5° termo da PG (2; 6; 18; ...) e:,162,54,486,324,108,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+40,Matematica,Progressoes,A soma dos infinitos termos da PG (1; 1/2; 1/4; ...) e:,2,1,4,3,infinita,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+41,Matematica,Probabilidade,Em uma urna com 4 bolas vermelhas e 6 azuis a probabilidade de sortear uma vermelha e:,2/5,3/5,1/4,4/10,1/10,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+42,Matematica,Probabilidade,A media aritmetica dos numeros 4; 6; 8; 10; 12 e:,8,7,9,10,6,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+43,Matematica,Probabilidade,A mediana do conjunto {3; 5; 7; 9; 11} e:,7,9,5,8,6,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+44,Matematica,Probabilidade,Quantos anagramas tem a palavra CASA (com letras repetidas)?,12,24,6,4,8,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+45,Matematica,Probabilidade,De um grupo de 6 pessoas quantas combinacoes de 2 podem ser formadas?,15,30,6,12,10,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+46,Matematica,Algebra,A solucao da equacao 3x + 6 = 21 e:,5,3,7,9,15,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+47,Matematica,Algebra,A solucao do sistema { x + y = 10 ; x - y = 4 } e:,x=7 e y=3,x=4 e y=6,x=6 e y=4,x=3 e y=7,x=8 e y=2,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+48,Matematica,Algebra,A inequacao 4x - 8 > 0 tem solucao:,x > 2,x < 2,x > -2,x < -2,x ≥ 2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+49,Matematica,Algebra,Se 3^(x+1) = 81 entao x e igual a:,3,4,2,9,27,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+50,Matematica,Algebra,O valor de 5! (cinco fatorial) e:,120,60,24,720,20,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+51,Matematica,Matrizes,O determinante da matriz [ [2; 3]; [1; 4] ] e:,5,8,11,-5,14,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+52,Matematica,Matrizes,A soma de todos os elementos da matriz [ [1; 2]; [3; 4] ] e:,10,8,12,7,5,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+53,Matematica,Financeira,Um capital de R$ 1000 aplicado a uma taxa de 10% ao ano por 2 anos em juros simples rende:,R$ 200,R$ 100,R$ 210,R$ 1200,R$ 300,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+54,Matematica,Financeira,Um produto custava R$ 200 e sofreu um aumento de 15%. O novo preco e:,R$ 230,R$ 215,R$ 220,R$ 240,R$ 300,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+55,Matematica,Financeira,Se um produto custava R$ 500 e agora custa R$ 400 o percentual de desconto e:,20%,25%,10%,15%,80%,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+56,Matematica,Numeros,O resultado de 2³ × 2⁴ e:,128,64,32,256,512,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+57,Matematica,Numeros,O MMC de 6 e 9 e:,18,3,54,9,6,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+58,Portugues,Interpretacao,A conjuncao 'embora' em 'Embora estivesse cansado ele continuou trabalhando' indica relacao de:,Concessao,Causalidade,Condicao,Finalidade,Temporalidade,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+59,Portugues,Interpretacao,A figura de linguagem presente em 'A floresta e o pulmao do mundo' e:,Metafora,Comparacao,Hiperbole,Metonimia,Prosopopeia,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+60,Portugues,Interpretacao,O enunciado 'Vende-se apartamentos neste bairro' esta na voz:,Passiva sintetica,Ativa,Passiva analitica,Reflexiva,Reciproca,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+61,Portugues,Interpretacao,A funcao da linguagem predominante em um texto publicitario e:,Apelativa,Referencial,Poetica,Fatica,Metalinguistica,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+62,Portugues,Interpretacao,A palavra 'manga' (fruta) e 'manga' (de camisa) ilustra o fenomeno de:,Homonimia,Polissemia,Sinonimia,Antonimia,Paronimia,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+63,Portugues,Interpretacao,O trecho 'Mil vezes te disse para nao fazer isso' apresenta a figura de linguagem:,Hiperbole,Antitese,Eufemismo,Metafora,Metonimia,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+64,Portugues,Interpretacao,Em 'Os alunos que estudam diariamente obtem melhores resultados' a oracao 'que estudam diariamente' e:,Adjetiva restritiva,Adjetiva explicativa,Substantiva,Adverbial,Coordenada,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+65,Portugues,Interpretacao,O pronome relativo 'cujo' em 'A professora cujo metodo e inovador foi homenageada' indica:,Posse,Lugar,Tempo,Modo,Causa,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+66,Portugues,Interpretacao,Em qual alternativa o 'ha' esta empregado corretamente?,Ha dois anos nao o via,A dois anos nao o via,Ha dois anos atras,A ha dois anos,Havera dois anos que,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+67,Portugues,Interpretacao,A funcao da linguagem predominante em um poema lirico e:,Poetica (estetica),Referencial,Fatica,Apelativa,Metalinguistica,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+68,Portugues,Interpretacao,Em 'Pedro chegou cedo; porem estava cansado' a conjuncao 'porem' indica:,Adversidade,Causa,Conclusao,Explicacao,Aditiva,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+69,Portugues,Interpretacao,O texto 'Instrucoes de uso: coloque o produto na agua e aguarde' usa predominantemente a linguagem:,Injuntiva,Narrativa,Descritiva,Poetica,Argumentativa,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+70,Portugues,Interpretacao,O termo 'entretanto' em um texto indica relacao de:,Adversidade,Causalidade,Conclusao,Aditiva,Condicao,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+71,Portugues,Interpretacao,A expressao 'passar a perna em alguem' e um exemplo de:,Expressao idiomatica,Metafora,Comparacao,Hiperbole,Ironia,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+72,Portugues,Interpretacao,Assinale o genero textual de carater instrucional:,Manual de instrucoes,Cronica,Poema,Conto,Editorial,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+73,Portugues,Gramatica,Assinale a frase com concordancia verbal CORRETA:,Todos os alunos estudaram para a prova,Todos os alunos estudou para a prova,Nenhum dos alunos estudaram,Os meninos foi ao parque,As crianca brincou muito,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+74,Portugues,Gramatica,Assinale a alternativa com uso correto de crase:,Fui a escola publica,Fui a sabado,Refiro-me a ele,Entregamos o relatorio a diretora,Vou a pe,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+75,Portugues,Gramatica,A forma verbal 'amassemos' esta no modo:,Subjuntivo,Indicativo,Imperativo,Infinitivo,Condicional,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+76,Portugues,Gramatica,Assinale a alternativa com regencia verbal CORRETA:,Precisamos de ajuda urgente,Chegamos em casa cedo,Visamos o sucesso,Assistimos o filme,Obedecemos a lei,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+77,Portugues,Gramatica,Em qual alternativa a palavra esta escrita INCORRETAMENTE:,Excessao,Excecao,Espetaculo,Extraordinario,Espectador,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+78,Portugues,Gramatica,O adjetivo 'feliz' forma o superlativo absoluto sintetico:,felicissimo,muito feliz,o mais feliz,bastante feliz,felizmente,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+79,Portugues,Gramatica,A classe gramatical da palavra 'entretanto' e:,Conjuncao,Preposicao,Adverbio,Pronome,Substantivo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+80,Portugues,Gramatica,Assinale o emprego CORRETO do 'por que':,Por que voce nao veio?,Essa e a razao porquê estudei,Nao sei porque fez isso,Por isso portanto foi,Portanto porque so,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+81,Portugues,Gramatica,Em 'Quero que voce venha' o modo do verbo 'venha' e:,Subjuntivo,Indicativo,Imperativo,Infinitivo,Participo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+82,Portugues,Gramatica,O processo de formacao da palavra 'deslealdade' e:,Derivacao prefixal e sufixal,Composicao,Derivacao regressiva,Abreviacao,Onomatopeia,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+83,Portugues,Gramatica,A funcao sintatica de 'livros' em 'Comprei livros novos' e:,Objeto direto,Sujeito,Predicativo,Adjunto adnominal,Complemento nominal,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+84,Portugues,Gramatica,Assinale a alternativa em que 'se' e particula apassivadora:,Vendem-se casas neste bairro,Machucou-se ao cair,Ela se penteou,Eles se abraçaram,Pode-se entrar,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+85,Portugues,Gramatica,Qual das alternativas apresenta um substantivo coletivo?,Alcateia (de lobos),Corrida (de cavalos),Migrar (de passaros),Latir (de caes),Rugir (de leoes),A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+86,Portugues,Gramatica,O prefixo de sentido negativo esta presente em:,Infeliz,Subnutrido,Refazer,Transgredir,Predizer,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+87,Portugues,Literatura,O Modernismo brasileiro iniciou-se com:,Semana de Arte Moderna de 1922,Publicacao de Iracema,Abolicao da escravatura,Publicacao de Os Lusíadas,Proclamacao da Republica,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+88,Portugues,Literatura,O movimento literario que valorizou o indio brasileiro como heroi nacional foi o:,Romantismo,Barroco,Realismo,Modernismo,Classicismo,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+89,Portugues,Literatura,'Dom Casmurro' de Machado de Assis pertence ao movimento literario:,Realismo,Romantismo,Modernismo,Barroco,Naturalismo,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+90,Portugues,Literatura,Guimaraes Rosa e o autor de:,Grande Sertao: Veredas,O Cortico,Memorias Postumas de Bras Cubas,Iracema,Vidas Secas,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+91,Portugues,Literatura,O poema 'Os Lusíadas' de Luis de Camoes pertence ao:,Classicismo portugues,Barroco,Romantismo,Modernismo,Renascimento brasileiro,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+92,Portugues,Literatura,O autor de 'Vidas Secas' que retratou a seca e o sofrimento do nordestino e:,Graciliano Ramos,Jorge Amado,Guimaraes Rosa,Jose de Alencar,Erico Verissimo,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+93,Portugues,Literatura,'Iracema' de Jose de Alencar e um exemplo de romance:,Indianista,Realista,Naturalista,Barroco,Moderno,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+94,Portugues,Literatura,O Realismo/Naturalismo brasileiro iniciou-se com a publicacao de:,O Mulato de Alui­sio Azevedo,Dom Casmurro,Iracema,Cantos de Ossian,O Cortico,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+95,Portugues,Literatura,Carlos Drummond de Andrade pertence a qual geracao modernista?,Segunda geracao (1930),Primeira geracao (1922),Terceira geracao (1945),Pre-modernismo,Pos-modernismo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+96,Portugues,Literatura,A caracteristica principal do Barroco literario e o(a):,Conflito entre espirito e materia,Valorizacao da natureza,Exaltacao do heroi nacional,Ruptura com as tradicoes,Racionalismo extremo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+97,Portugues,Literatura,Padre Antonio Vieira foi um grande representante do Barroco brasileiro. Sua obra mais conhecida e:,Sermao da Sexagesima,Iracema,Dom Casmurro,Grande Sertao,O Cortico,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+98,Portugues,Literatura,A obra 'Memorias Postumas de Bras Cubas' de Machado de Assis tem como narracao:,Narrador em primeira pessoa (defunto-autor),Narrador onisciente em terceira pessoa,Narrador observador,Narrador testemunha,Narrador multiplo,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+99,Portugues,Literatura,Jorge Amado e o autor de 'Gabriela Cravo e Canela'. Ele pertence ao:,Modernismo (2a geracao),Realismo,Romantismo,Pre-modernismo,Pos-modernismo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+100,Portugues,Literatura,A Semana de Arte Moderna de 1922 aconteceu na cidade de:,Sao Paulo,Rio de Janeiro,Salvador,Recife,Belo Horizonte,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+101,Portugues,Figuras de Linguagem,A figura de linguagem presente em 'O vento correu atras das nuvens' e:,Prosopopeia,Metafora,Comparacao,Hiperbole,Ironia,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+102,Portugues,Figuras de Linguagem,Em 'Ela e um anjo' a figura de linguagem empregada e:,Metafora,Comparacao,Hiperbole,Personificacao,Sinestesia,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+103,Portugues,Figuras de Linguagem,A expressao 'Ela tem um coracao de pedra' apresenta:,Metafora,Comparacao,Antitese,Eufemismo,Pleonasmo,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+104,Portugues,Figuras de Linguagem,A frase 'Brando e o leao' ao referir-se a uma pessoa feroz usa:,Antifrase (ironia),Metafora,Hiperbole,Elipse,Sinedoque,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+105,Portugues,Figuras de Linguagem,Em 'Li Machado de Assis' ao inves de 'Li as obras de Machado de Assis' temos:,Metonimia,Metafora,Hiperbole,Comparacao,Eufemismo,A,4,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+106,Portugues,Figuras de Linguagem,'Viver sem te ver e uma agonia sem fim' apresenta:,Hiperbole,Antitese,Comparacao,Metafora,Ironia,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+107,Portugues,Figuras de Linguagem,Em 'O silencio gritou na sala vazia' ha a figura de linguagem:,Antitese,Paradoxo,Comparacao,Hiperbole,Metafora,A,4,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+108,Portugues,Pontuacao,Em qual das alternativas o uso do ponto-e-virgula esta CORRETO?,Estudei muito; logo passei na prova.,Ela foi; e comprou frutas.,Hoje; esta calor.,Preciso; de ajuda.,Ontem; fui ao parque.,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+109,Portugues,Ortografia,Assinale a palavra grafada CORRETAMENTE:,Beneficente,Benefiscente,Beneficiente,Benefisente,Beneficiante,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+110,Portugues,Ortografia,Assinale a palavra grafada INCORRETAMENTE:,Espetaculo,Excecao,Excessao,Extraordinario,Espectador,C,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+111,Portugues,Morfologia,A palavra 'desumanizacao' e formada por:,Derivacao prefixal e sufixal,Composicao por justaposicao,Derivacao regressiva,Composicao por aglutinacao,Abreviacao,A,4,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+112,Portugues,Morfologia,Qual das palavras abaixo e um adverbio?,Rapidamente,Rapido,Rapidez,Rapidissimo,Rapida,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+113,Portugues,Morfologia,O processo de formacao da palavra 'guarda-chuva' e:,Composicao por justaposicao,Derivacao sufixal,Derivacao prefixal,Composicao por aglutinacao,Abreviacao,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+114,Portugues,Morfologia,A classe gramatical da palavra 'porem' em 'Estudei muito; porem nao passei' e:,Conjuncao adversativa,Substantivo,Adverbio,Pronome,Preposicao,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+115,Fisica,Cinematica,Um carro percorre 180 km em 2 horas. Sua velocidade media e:,90 km/h,360 km/h,45 km/h,60 km/h,180 km/h,A,1,enem;uerj;espcex;efomm;epcar
+116,Fisica,Cinematica,Um objeto em queda livre parte do repouso. Apos 3 s sua velocidade e (g = 10 m/s²):,30 m/s,15 m/s,10 m/s,90 m/s,3 m/s,A,2,enem;uerj;espcex;efomm;epcar
+117,Fisica,Cinematica,Um movel em MRU percorre 240 m em 8 s. Sua velocidade e:,30 m/s,60 m/s,15 m/s,120 m/s,20 m/s,A,1,enem;uerj;espcex;efomm;epcar
+118,Fisica,Cinematica,Um trem parte do repouso com aceleracao de 2 m/s². Apos 5 s sua velocidade e:,10 m/s,7 m/s,20 m/s,5 m/s,15 m/s,A,2,enem;uerj;espcex;efomm;epcar
+119,Fisica,Cinematica,Um corpo em MRUV com v0=0 e a=4 m/s² percorre em 3 s a distancia:,18 m,36 m,12 m,6 m,24 m,A,3,enem;uerj;espcex;efomm;epcar
+120,Fisica,Cinematica,Dois trens se aproximam em trilhos paralelos. Um a 60 km/h e outro a 80 km/h. A velocidade relativa entre eles e:,140 km/h,20 km/h,70 km/h,100 km/h,60 km/h,A,3,enem;uerj;espcex;efomm;epcar
+121,Fisica,Cinematica,Um carro freia de 72 km/h ate parar com desaceleracao de 5 m/s². O espaco percorrido no frenamento e:,40 m,20 m,72 m,10 m,36 m,A,4,enem;uerj;espcex;efomm;epcar
+122,Fisica,Dinamica,Um bloco de 5 kg e submetido a uma forca de 20 N. Sua aceleracao e (despreze o atrito):,4 m/s²,100 m/s²,25 m/s²,0,4 N,A,2,enem;uerj;espcex;efomm;epcar
+123,Fisica,Dinamica,O peso de um objeto de massa 8 kg na Terra e (g = 10 m/s²):,80 N,8 N,800 N,0.8 N,8 kg,A,1,enem;uerj;espcex;efomm;epcar
+124,Fisica,Dinamica,A terceira lei de Newton (acao e reacao) afirma que:,Toda acao tem reacao igual e contraria,F = m.a,Um corpo em repouso tende a ficar em repouso,Forca e igual a pressao vezes area,Energia se conserva,A,2,enem;uerj;espcex;efomm;epcar
+125,Fisica,Dinamica,Um corpo de 2 kg e lançado verticalmente para cima com v=20 m/s. A altura maxima atingida e (g=10):,20 m,40 m,10 m,200 m,4 m,A,3,enem;uerj;espcex;efomm;epcar
+126,Fisica,Dinamica,O trabalho realizado por uma forca de 50 N ao deslocar um objeto 4 m na direcao da forca e:,200 J,50 J,800 J,100 J,400 J,A,2,enem;uerj;espcex;efomm;epcar
+127,Fisica,Dinamica,A potencia de um motor que realiza 6000 J de trabalho em 20 s e:,300 W,300 J,120000 W,6020 W,200 W,A,1,enem;uerj;espcex;efomm;epcar
+128,Fisica,Termodinamica,A temperatura de 27°C em Kelvin e:,300 K,27 K,246 K,373 K,273 K,A,2,enem;uerj;espcex;efomm;epcar
+129,Fisica,Termodinamica,A temperatura de 100°C em Fahrenheit e:,212°F,100°F,373°F,180°F,132°F,A,3,enem;uerj;espcex;efomm;epcar
+130,Fisica,Termodinamica,O calor especifico da agua e 1 cal/g°C. O calor necessario para aquecer 200 g de agua de 20°C a 70°C e:,10000 cal,50000 cal,200 cal,14000 cal,1000 cal,A,3,enem;uerj;espcex;efomm;epcar
+131,Fisica,Termodinamica,O processo de transmissao de calor por contato direto entre moleculas e denominado:,Conducao,Conveccao,Irradiacao,Expansao,Sublimacao,A,1,enem;uerj;espcex;efomm;epcar
+132,Fisica,Termodinamica,A lei de Boyle-Mariotte (a T constante) estabelece que:,P×V = constante,P/V = constante,P+V = constante,P = V,V = T/P,A,3,enem;uerj;espcex;efomm;epcar
+133,Fisica,Optica,Se a velocidade da luz no vacuo e c e o indice de refracao de um meio e n=2 entao a velocidade da luz nesse meio e:,c/2,c/3,2c,3c,c,A,3,enem;uerj;espcex;efomm;epcar
+134,Fisica,Eletricidade,A resistencia de um fio de cobre de comprimento L e secao A e (ρ = resistividade):,R = ρL/A,R = ρA/L,R = L/(ρA),R = A/(ρL),R = ρLA,A,3,enem;uerj;espcex;efomm;epcar
+135,Fisica,Eletricidade,Em um circuito com resistencia de 10 Ω e corrente de 2 A a tensao e (Lei de Ohm):,20 V,5 V,8 V,12 V,200 V,A,1,enem;uerj;espcex;efomm;epcar
+136,Fisica,Eletricidade,Dois resistores de 4 Ω cada em paralelo tem resistencia equivalente:,2 Ω,8 Ω,4 Ω,6 Ω,1 Ω,A,3,enem;uerj;espcex;efomm;epcar
+137,Fisica,Eletricidade,A potencia dissipada em um resistor de 5 Ω com corrente de 3 A e (P=R×I²):,45 W,15 W,8 W,90 W,3 W,A,3,enem;uerj;espcex;efomm;epcar
+138,Fisica,Eletricidade,Cargas de mesmo sinal quando proximas:,Se repelem,Se atraem,Nao interagem,Se anulam,Se neutralizam,A,2,enem;uerj;espcex;efomm;epcar
+139,Fisica,Ondas,A velocidade de propagacao do som no ar e aproximadamente:,340 m/s,300 m/s,1500 m/s,3000 m/s,30 m/s,A,1,enem;uerj;espcex;efomm;epcar
+140,Quimica,Ligacoes Quimicas,A ligacao quimica formada por compartilhamento de pares de eletrons e denominada:,Covalente,Ionica,Metalica,Hidrogenio,Van der Waals,A,2,enem;uerj;espcex
+141,Quimica,Ligacoes Quimicas,A ligacao ionica ocorre tipicamente entre:,Metal e nao-metal,Dois nao-metais,Dois metais,Metal e gas nobre,Dois gases nobres,A,1,enem;uerj;espcex
+142,Quimica,Ligacoes Quimicas,O numero de ligacoes covalentes que o carbono (Z=6) forma e:,4,2,1,3,6,A,2,enem;uerj;espcex
+143,Quimica,Tabela Periodica,O elemento de numero atomico 11 (Sodio) pertence ao grupo:,IA (metais alcalinos),IIA (metais alcalino-terrosos),VIIA (halogenios),0 (gases nobres),IVA,A,1,enem;uerj;espcex
+144,Quimica,Tabela Periodica,Ao longo de um periodo (linha) da tabela periodica da esquerda para a direita o raio atomico:,Diminui,Aumenta,Permanece constante,Oscila,Depende do grupo,A,3,enem;uerj;espcex
+145,Quimica,Reacoes,O balanceamento correto da reacao de formacao da agua (H₂ + O₂ → H₂O) e:,2H₂ + O₂ → 2H₂O,H₂ + O₂ → H₂O,H₂ + 2O₂ → 2H₂O,2H₂ + 2O₂ → 2H₂O,4H₂ + O₂ → 4H₂O,A,3,enem;uerj;espcex
+146,Quimica,Reacoes,Em uma reacao exotermica o calor e:,Liberado para o ambiente,Absorvido do ambiente,Nulo,Transformado em luz,Armazenado no produto,A,2,enem;uerj;espcex
+147,Quimica,Funcoes Inorganicas,O acido cloridrico (HCl) em solucao aquosa e classificado como:,Acido forte,Acido fraco,Base forte,Base fraca,Sal,A,1,enem;uerj;espcex
+148,Quimica,Funcoes Inorganicas,O hidroxido de sodio (NaOH) e classificado como:,Base forte,Base fraca,Acido forte,Acido fraco,Sal,A,2,enem;uerj;espcex
+149,Quimica,Funcoes Inorganicas,Uma solucao com pH = 7 a 25°C e considerada:,Neutra,Acida,Basica,Tampao,Saturada,A,1,enem;uerj;espcex
+150,Quimica,Funcoes Inorganicas,O sal formado pela reacao entre HCl e NaOH e:,NaCl,NaOH,HCl,NaHCO₃,Na₂CO₃,A,2,enem;uerj;espcex
+151,Quimica,Estequiometria,Na reacao 2H₂ + O₂ → 2H₂O quantas moles de agua sao produzidas a partir de 4 moles de H₂?,4 mol,2 mol,8 mol,1 mol,6 mol,A,3,enem;uerj;espcex
+152,Quimica,Estequiometria,A massa molar do CO₂ (C=12; O=16) e:,44 g/mol,28 g/mol,32 g/mol,22 g/mol,16 g/mol,A,2,enem;uerj;espcex
+153,Quimica,Solucoes,A concentracao de uma solucao com 20 g de soluto dissolvidos em 500 mL de solucao e:,40 g/L,10 g/L,20 g/L,100 g/L,4 g/L,A,3,enem;uerj;espcex
+154,Quimica,Organica,A formula geral dos alcanos e:,CₙH₂ₙ₊₂,CₙH₂ₙ,CₙH₂ₙ₋₂,CₙHₙ,CₙH₂,A,2,enem;uerj;espcex
+155,Quimica,Organica,O grupo funcional -OH quando ligado a um carbono alifatico caracteriza a funcao:,Alcool,Eter,Aldei­do,Cetona,Acido carboxilico,A,1,enem;uerj;espcex
+156,Quimica,Organica,A combustao completa de um hidrocarboneto produz como produtos:,CO₂ e H₂O,CO e H₂O,C e H₂O,CO₂ e H₂,C e H₂,A,2,enem;uerj;espcex
+157,Quimica,Organica,O metano (CH₄) e um exemplo de:,Alcano,Alceno,Alcino,Aromatic,Alcadeno,A,1,enem;uerj;espcex
+158,Quimica,Nucleo Atomico,O numero de protons no nucleo de um atomo e igual ao seu:,Numero atomico (Z),Numero de massa (A),Numero de neutrons,Numero de eletrons de valencia,Periodo na TP,A,2,enem;uerj;espcex
+159,Quimica,Nucleo Atomico,Isotopos sao atomos do mesmo elemento que diferem em:,Numero de neutrons,Numero de protons,Numero de eletrons,Numero atomico,Grupo na tabela,A,3,enem;uerj;espcex
+160,Biologia,Ecologia,Em uma cadeia alimentar o organismo que produz materia organica a partir de luz solar e denominado:,Produtor,Consumidor primario,Consumidor secundario,Decompositores,Parasita,A,2,enem;uerj
+161,Biologia,Ecologia,A biomassa diminui a cada nivel trofico em uma cadeia alimentar. Isso e explicado pela:,Perda de energia em cada nivel,Fotossintese dos produtores,Respiracao dos decompositores,Interacao entre especies,Ciclo hidrologico,A,3,enem;uerj
+162,Biologia,Ecologia,O ciclo do carbono inclui o processo de fotossintese que:,Retira CO₂ da atmosfera,Libera CO₂ na atmosfera,Transforma N₂ em nitratos,Produz O₃ na estratosfera,Decompoe materia organica,A,2,enem;uerj
+163,Biologia,Ecologia,O aquecimento global esta associado ao aumento da concentracao de:,Gases de efeito estufa,Oxigenio na atmosfera,Ozonio na estratosfera,Nitrogenio no solo,Vapor d'agua nos oceanos,A,1,enem;uerj
+164,Biologia,Ecologia,A relacao ecologica entre o liquen (fungo + alga) e um exemplo de:,Mutualismo,Parasitismo,Comensalismo,Amensalismo,Competicao,A,3,enem;uerj
+165,Biologia,Genetica,A lei da segregacao independente de Mendel (2a lei) refere-se a:,Heranca de dois ou mais pares de genes independentes,Heranca de um unico par de alelos,Dominancia incompleta,Heranca ligada ao sexo,Mutacoes geneticas,A,3,enem;uerj
+166,Biologia,Genetica,Um individuo com genot tipo AaBb cruzado com outro AaBb. A proporcao de fenotipo dominante para os dois caracteres e:,9/16,3/16,1/16,12/16,6/16,A,5,enem;uerj
+167,Biologia,Genetica,A sindrome de Down e causada por:,Trissomia do cromossomo 21,Monossomia do X,Trissomia do X,Delecao do cromossomo 5,Mutacao pontual,A,1,enem;uerj
+168,Biologia,Genetica,O DNA e formado por nucleotideos que sao compostos de:,Fosfato + acucar + base nitrogenada,Aminoacido + acucar + fosfato,Lipideo + base + proteina,Glicose + base + fosfato,RNA + proteina + lipideo,A,3,enem;uerj
+169,Biologia,Genetica,A replicacao do DNA ocorre durante a fase:,S (sintese) do ciclo celular,G1 do ciclo celular,G2 do ciclo celular,M (mitotica),Intermanual,A,4,enem;uerj
+170,Biologia,Citologia,A membrana plasmatica e constituida principalmente por:,Fosfolipideos e proteinas,Celulose e proteinas,DNA e proteinas,Glicose e lipideos,Colesterol apenas,A,2,enem;uerj
+171,Biologia,Citologia,A organela responsavel pela producao de energia (ATP) na celula e:,Mitocondria,Nucleo,Ribossomo,Reticulo endoplasmatico,Complexo de Golgi,A,1,enem;uerj
+172,Biologia,Citologia,A fotossintese nos vegetais ocorre no:,Cloroplasto,Mitocondria,Vacuolo,Nucleo,Ribossomo,A,2,enem;uerj
+173,Biologia,Citologia,Na mitose o material genetico:,E duplicado e distribuido igualmente entre duas celulas-filhas,E reduzido a metade em cada celula-filha,Permanece em uma unica celula,Se mistura com o citoplasma,Nao sofre alteracao,A,1,enem;uerj
+174,Biologia,Citologia,A principal diferenca entre celulas procariontes e eucariontes e:,Presenca de nucleo organizado nas eucariontes,Presenca de DNA nas procariontes,Presenca de ribossomos nas eucariontes,Tamanho celular,Presenca de membrana nas eucariontes,A,2,enem;uerj
+175,Biologia,Evolucao,A teoria da selecao natural foi proposta por:,Charles Darwin,Jean-Baptiste Lamarck,Gregor Mendel,Watson e Crick,Louis Pasteur,A,1,enem;uerj
+176,Biologia,Evolucao,De acordo com Lamarck a evolucao ocorria por:,Uso e desuso e heranca dos caracteres adquiridos,Selecao natural e heranca genetica,Mutacoes aleatorias,Deriva genetica,Fluxo genico,A,3,enem;uerj
+177,Biologia,Evolucao,O isolamento geografico contribui para a especiacao pois:,Impede o cruzamento entre populacoes,Aumenta a taxa de mutacoes,Favorece a migracao,Reduz a selecao natural,Elimina a competicao,A,3,enem;uerj
+178,Biologia,Fisiologia,O sangue oxigenado sai do coracao pelo(a):,Aorta (ventriculo esquerdo),Arteria pulmonar,Veia pulmonar,Veia cava,Ventriculo direito,A,3,enem;uerj
+179,Biologia,Fisiologia,A insulina e produzida pelo pancreas e sua principal funcao e:,Reduzir a glicose sanguinea,Aumentar a glicose sanguinea,Estimular o crescimento osseo,Regular o metabolismo de calcio,Controlar a pressao arterial,A,1,enem;uerj
+180,Historia,Brasil Colonial,O Tratado de Tordesilhas (1494) dividiu o Novo Mundo entre:,Portugal e Espanha,Portugal e Franca,Espanha e Holanda,Inglaterra e Portugal,Espanha e Franca,A,2,enem;uerj;espcex;epcar
+181,Historia,Brasil Colonial,O sistema de capitanias hereditarias foi implantado no Brasil a partir de:,1532 com Martim Afonso de Sousa,1500 com Pedro Alvares Cabral,1549 com Tome de Sousa,1600 com os jesuitas,1654 com a expulsao dos holandeses,A,3,enem;uerj;espcex;epcar
+182,Historia,Brasil Colonial,A principal riqueza exportada pelo Brasil no ciclo do acucar (seculos XVI-XVII) foi:,Acucar,Ouro,Cafe,Borracha,Algodao,A,2,enem;uerj;espcex;epcar
+183,Historia,Brasil Colonial,A Inconfidencia Mineira (1789) foi um movimento que visava:,Independencia do Brasil,Abolir a escravatura,Instaurar uma republica federada,Expulsar os jesui­tas,Criar uma monarquia constitucional,A,3,enem;uerj;espcex;epcar
+184,Historia,Brasil Imperio,A Independencia do Brasil foi proclamada por Dom Pedro I em:,7 de setembro de 1822,7 de setembro de 1889,15 de novembro de 1889,3 de maio de 1808,15 de outubro de 1827,A,2,enem;uerj;espcex;epcar
+185,Historia,Brasil Imperio,A Abolicao da Escravatura no Brasil ocorreu com a assinatura da Lei Aurea em:,13 de maio de 1888,15 de novembro de 1889,7 de setembro de 1822,15 de maio de 1888,13 de maio de 1889,A,1,enem;uerj;espcex;epcar
+186,Historia,Brasil Imperio,O Segundo Reinado brasileiro (1840-1889) foi caracterizado por:,Crescimento economico e Guerra do Paraguai,Golpe militar e industrializacao,Republica Velha e coronelismo,Ditadura Vargas e Estado Novo,Governo JK e Plano de Metas,A,3,enem;uerj;espcex;epcar
+187,Historia,Brasil Republica,A Proclamacao da Republica no Brasil ocorreu em:,15 de novembro de 1889,7 de setembro de 1822,13 de maio de 1888,1 de maio de 1900,20 de novembro de 1889,A,1,enem;uerj;espcex;epcar
+188,Historia,Brasil Republica,O periodo da Republica Velha (1889-1930) foi marcado pelo:,Dominio dos grandes fazendeiros (coronelismo),Industrializacao acelerada,Fim da escravidao,Reforma Trabalhista,Plano de Metas de JK,A,3,enem;uerj;espcex;epcar
+189,Historia,Brasil Republica,O Estado Novo (1937-1945) foi um regime ditatorial liderado por:,Getulio Vargas,Eurico Gaspar Dutra,Juscelino Kubitschek,Joao Goulart,Castello Branco,A,1,enem;uerj;espcex;epcar
+190,Historia,Brasil Republica,O golpe militar de 1964 no Brasil depoz o presidente:,Joao Goulart,Juscelino Kubitschek,Janio Quadros,Joao Cafe Filho,Nereu Ramos,A,2,enem;uerj;espcex;epcar
+191,Historia,Historia Geral,A Revolucao Francesa (1789) foi motivada principalmente pela:,Crise economica e desigualdade social,Invasao napoleonica,Reforma religiosa,Guerra dos Cem Anos,Descoberta do Novo Mundo,A,3,enem;uerj;espcex;epcar
+192,Historia,Historia Geral,A Primeira Guerra Mundial iniciou-se em 1914 com o assassinato de:,Francisco Ferdinando (Arquiduque austro-hungaro),Kaiser Guilherme II,Tsar Nicolau II,Winston Churchill,Otto von Bismarck,A,2,enem;uerj;espcex;epcar
+193,Historia,Historia Geral,A Revolucao Russa de 1917 levou ao poder o partido:,Bolchevique (comunista),Cadete (liberal),Menchevique,Socialista Revolucionario,Monarquista,A,1,enem;uerj;espcex;epcar
+194,Historia,Historia Geral,O nazismo na Alemanha foi liderado por:,Adolf Hitler,Benito Mussolini,Francisco Franco,Josef Stalin,Heinrich Himmler,A,2,enem;uerj;espcex;epcar
+195,Historia,Historia Geral,A Segunda Guerra Mundial encerrou-se oficialmente em:,1945,1944,1946,1943,1947,A,1,enem;uerj;espcex;epcar
+196,Historia,Historia Geral,A Guerra Fria caracterizou-se pela disputa entre:,EUA e URSS,EUA e China,URSS e China,EUA e Alemanha,EUA e Japao,A,2,enem;uerj;espcex;epcar
+197,Historia,Historia Geral,O Renascimento Cultural (seculos XIV-XVI) iniciou-se em:,Italia,Franca,Inglaterra,Alemanha,Portugal,A,1,enem;uerj;espcex;epcar
+198,Historia,Historia Geral,As Cruzadas foram expedições militares organizadas pela Igreja Catolica com o objetivo de:,Reconquistar a Terra Santa dos muculmanos,Expandir o comercio europeu,Converter povos pagaos,Combater a heresia protestante,Explorar as Americas,A,3,enem;uerj;espcex;epcar
+199,Historia,Historia Geral,A Revolucao Industrial iniciou-se no seculo XVIII em:,Inglaterra,Franca,Alemanha,Estados Unidos,Belgica,A,1,enem;uerj;espcex;epcar
+200,Historia,Historia Geral,O Iluminismo defendia os valores de:,Razao liberdade e igualdade,Fe misticismo e obediencia,Feudalismo teocracia e servidao,Imperialismo colonialismo e escravidao,Nationalismo militarismo e expansionismo,A,3,enem;uerj;espcex;epcar
+201,Historia,Historia Geral,A queda do Muro de Berlim ocorreu em:,1989,1991,1985,1979,1993,A,1,enem;uerj;espcex;epcar
+202,Historia,Historia Geral,Os atentados terroristas de 11 de setembro de 2001 ocorreram nos:,Estados Unidos,Inglaterra,Franca,Alemanha,Israel,A,2,enem;uerj;espcex;epcar
+203,Historia,Brasil Colonial,O documento considerado o primeiro relato sobre o Brasil foi escrito por:,Pero Vaz de Caminha,Amerigo Vespucio,Joao de Barros,Pedro Alvares Cabral,Bartolomeu Dias,A,1,enem;uerj;espcex;epcar
+204,Historia,Brasil Colonial,O Sistema Colonial Mercantilista impunha ao Brasil o Pacto Colonial que significava:,Comerciar exclusivamente com Portugal,Pagar tributos a Inglaterra,Cultivar somente acucar,Exportar escravos para Africa,Importar manufaturas da Holanda,A,3,enem;uerj;espcex;epcar
+205,Historia,Brasil Republica,O movimento tenentista dos anos 1920 representava a insatisfacao de:,Jovens oficiais militares com a Republica Velha,Trabalhadores industriais,Fazendeiros do cafe,Imigrantes europeus,Intelectuais modernistas,A,4,enem;uerj;espcex;epcar
+206,Historia,Historia Geral,A Reforma Protestante iniciada por Lutero em 1517 questionou principalmente:,A autoridade e corrupcao da Igreja Catolica,O absolutismo dos reis,A escravidao nas Americas,O sistema feudal,O comercio maritimo,A,3,enem;uerj;espcex;epcar
+207,Historia,Historia Geral,O Apartheid foi um regime de segregacao racial que vigorou em:,Africa do Sul,Zimbabwe,Nigeria,Angola,Mocambique,A,1,enem;uerj;espcex;epcar
+208,Historia,Historia Geral,A Declaracao Universal dos Direitos Humanos foi proclamada pela ONU em:,1948,1945,1919,1789,1776,A,3,enem;uerj;espcex;epcar
+209,Historia,Brasil Republica,A Constituicao cidada do Brasil foi promulgada em:,1988,1985,1979,1964,1946,A,1,enem;uerj;espcex;epcar
+210,Geografia,Brasil Fisico,O maior rio do Brasil em volume de agua e:,Rio Amazonas,Rio Parana,Rio Sao Francisco,Rio Tocantins,Rio Madeira,A,2,enem;uerj;espcex;epcar
+211,Geografia,Brasil Fisico,O bioma que ocupa a maior extensao do territorio brasileiro e:,Amazonia,Cerrado,Caatinga,Mata Atlantica,Pantanal,A,1,enem;uerj;espcex;epcar
+212,Geografia,Brasil Fisico,A regiao mais populosa do Brasil e a:,Sudeste,Sul,Nordeste,Norte,Centro-Oeste,A,2,enem;uerj;espcex;epcar
+213,Geografia,Brasil Fisico,O processo de desertificacao afeta principalmente a regiao:,Nordeste do Brasil,Amazonia,Sul,Centro-Oeste,Sudeste,A,1,enem;uerj;espcex;epcar
+214,Geografia,Brasil Fisico,A maior cidade do Brasil em populacao e:,Sao Paulo,Rio de Janeiro,Brasilia,Salvador,Fortaleza,A,2,enem;uerj;espcex;epcar
+215,Geografia,Brasil Fisico,A capital federal do Brasil esta localizada no estado de:,Distrito Federal,Goias,Minas Gerais,Mato Grosso,Sao Paulo,A,1,enem;uerj;espcex;epcar
+216,Geografia,Brasil Fisico,O Pantanal Mato-grossense e considerado a maior planicie alagavel do mundo e e localizado na regiao:,Centro-Oeste,Norte,Nordeste,Sul,Sudeste,A,2,enem;uerj;espcex;epcar
+217,Geografia,Geopolitica,A organizacao internacional criada apos a Segunda Guerra Mundial para promover a paz e a cooperacao e a:,ONU (Organizacao das Nacoes Unidas),OTAN,FMI,OMC,UNESCO,A,1,enem;uerj;espcex;epcar
+218,Geografia,Geopolitica,O MERCOSUL e um bloco economico composto originalmente por:,Argentina Brasil Paraguai e Uruguai,Brasil Argentina e Chile,Brasil Argentina Bolivia e Chile,Todos os paises sul-americanos,Brasil Venezuela e Argentina,A,3,enem;uerj;espcex;epcar
+219,Geografia,Geopolitica,O pais com a maior producao de petroleo do mundo e (decada de 2020):,Estados Unidos,Arabia Saudita,Russia,Ira,Venezuela,A,4,enem;uerj;espcex;epcar
+220,Geografia,Geopolitica,O continente mais populoso do mundo e:,Asia,Africa,Europa,America,Oceania,A,2,enem;uerj;espcex;epcar
+221,Geografia,Geopolitica,A regiao do Oriente Medio tem como caracteristica economica predominante a:,Exportacao de petroleo,Producao agricola tropical,Industrializacao avancada,Exportacao de minerio de ferro,Turismo de massa,A,1,enem;uerj;espcex;epcar
+222,Geografia,Clima,O clima equatorial caracteriza-se por:,Altas temperaturas e chuvas abundantes o ano todo,Estacao seca definida e temperaturas amenas,Frio intenso e precipitacao como neve,Chuvas concentradas no verao,Ausencia de chuvas e calor extremo,A,2,enem;uerj;espcex;epcar
+223,Geografia,Clima,O fenomeno El Nino causa no Nordeste brasileiro:,Seca mais intensa que o normal,Chuvas acima da media,Ondas de frio,Ciclones tropicais,Geadas frequentes,A,3,enem;uerj;espcex;epcar
+224,Geografia,Geomorfologia,As regioes de relevo denominadas depressoes absolutas possuem altitude:,Abaixo do nivel do mar,Entre 0 e 200 metros,Entre 200 e 500 metros,Acima de 500 metros,Acima de 1000 metros,A,3,enem;uerj;espcex;epcar
+225,Geografia,Geomorfologia,O processo de intemperismo quimico e mais intenso em regioes de clima:,Equatorial quente e umido,Desertico quente e seco,Polar frio e seco,Temperado frio,Mediterraneo,A,3,enem;uerj;espcex;epcar
+226,Geografia,Urbanizacao,O processo de metropolizacao no Brasil intensificou-se principalmente a partir de:,Decada de 1950,Decada de 1920,Inicio do seculo XX,Anos 1980,Anos 1990,A,3,enem;uerj;espcex;epcar
+227,Geografia,Urbanizacao,O fenomeno da conurbacao ocorre quando:,Duas ou mais cidades crescem e se unem fisicamente,Uma cidade perde populacao,Ocorre migrao rural-urbana,Surge um novo bairro na cidade,Ha queda na taxa de urbanizacao,A,3,enem;uerj;espcex;epcar
+228,Geografia,Brasil Fisico,O Rio Sao Francisco tem grande importancia para o Nordeste principalmente por:,Ser a unica fonte de agua perene em area semiarida,Sua beleza cenica,Produzir energia eletrica apenas,Servir a navegacao maritima,Abastecer grandes metropoles do Sudeste,A,3,enem;uerj;espcex;epcar
+229,Geografia,Geopolitica,O fenomeno denominado Globalizacao se caracteriza principalmente por:,Integracao economica cultural e financeira mundial,Isolamento entre os paises,Formacao de blocos fechados,Crescimento do protecionalismo,Surgimento de novas nacoes,A,1,enem;uerj;espcex;epcar
+230,Geografia,Recursos Naturais,A Amazonia possui grande importancia ecologica mundial devido a:,Maior biodiversidade do planeta e regulacao climatica,Maior reserva de petroleo do mundo,Maior producao agricola global,Maior concentracao de minerais raros,Maior estoque de agua doce superficial,A,2,enem;uerj;espcex;epcar
+231,Geografia,Geopolitica,A China e considerada uma potencia emergente global principalmente por causa de:,Seu crescimento economico acelerado e tamanho populacional,Sua potencia militar nuclear,Sua lideranca em energia renovavel,Sua democracia consolidada,Sua exportacao de produtos agricolas,A,3,enem;uerj;espcex;epcar
+232,Geografia,Clima,O aquecimento global tem como principal causa antrópica:,Queima de combustiveis fosseis,Desmatamento da Amazonia apenas,Erupcoes vulcanicas,Variacao da atividade solar,Expansao dos desertos,A,2,enem;uerj;espcex;epcar
+233,Geografia,Geomorfologia,As planícies sedimentares costeiras formam-se principalmente por:,Deposicao de sedimentos fluviais e marinhos,Erosao eolica,Tectonismo de placas,Intemperismo quimico,Atividade vulcanica,A,3,enem;uerj;espcex;epcar
+234,Geografia,Brasil Fisico,O Brasil possui o maior numero de usinas hidreletricas do mundo devido a:,Sua extensa rede hidrologica e relevo propicio,Ausencia de reservas de petroleo,Baixo custo de construcao,Tecnologia nacional avancada,Baixa densidade demografica,A,3,enem;uerj;espcex;epcar
+235,Geografia,Geopolitica,O processo de descolonizacao africana intensificou-se apos:,A Segunda Guerra Mundial (pos-1945),A Primeira Guerra Mundial,A Revolucao Industrial,A Guerra Fria terminar,O seculo XIX,A,3,enem;uerj;espcex;epcar
+236,Geografia,Urbanizacao,O Brasil e um pais considerado urbanizado pois possui aproximadamente:,85% da populacao vivendo em areas urbanas,50% em areas urbanas,30% em areas urbanas,70% em areas rurais,60% em areas rurais,A,2,enem;uerj;espcex;epcar
+237,Geografia,Brasil Fisico,A Serra da Mantiqueira e a Serra do Mar localizam-se predominantemente na regiao:,Sudeste,Nordeste,Sul,Norte,Centro-Oeste,A,1,enem;uerj;espcex;epcar
+238,Ingles,Reading Comprehension,In English the word 'although' is used to express:,Contrast (concession),Cause,Purpose,Time,Addition,A,3,uerj;espcex;efomm;epcar;colegio_naval
+239,Ingles,Reading Comprehension,The phrase 'As a result' in a text indicates:,Consequence,Contrast,Addition,Condition,Time,A,1,uerj;espcex;efomm;epcar;colegio_naval
+240,Ingles,Reading Comprehension,The word 'however' in English expresses:,Opposition or contrast,Addition,Sequence,Cause,Purpose,A,2,uerj;espcex;efomm;epcar;colegio_naval
+241,Ingles,Grammar,The correct form of the verb in 'She ___ to the store yesterday' is:,went,go,goes,going,gone,A,1,uerj;espcex;efomm;epcar;colegio_naval
+242,Ingles,Grammar,Choose the correct sentence in the Present Perfect tense:,She has already finished her homework,She already finished her homework,She finish her homework,She is finishing her homework now,She will finish her homework,A,3,uerj;espcex;efomm;epcar;colegio_naval
+243,Ingles,Grammar,The passive voice form of 'They built the bridge in 1990' is:,The bridge was built in 1990,The bridge is built in 1990,The bridge has been built in 1990,The bridge will be built in 1990,The bridge had been built in 1990,A,3,uerj;espcex;efomm;epcar;colegio_naval
+244,Ingles,Grammar,The correct conditional sentence (type 1) is:,If it rains we will stay home,If it rains we would stay home,If it rained we would stay home,If it had rained we would have stayed home,If it is raining we stayed,A,3,uerj;espcex;efomm;epcar;colegio_naval
+245,Ingles,Grammar,The superlative form of 'good' is:,the best,the better,the most good,the goodest,more good,A,1,uerj;espcex;efomm;epcar;colegio_naval
+246,Ingles,Grammar,The comparative form of 'intelligent' is:,more intelligent,intelligenter,most intelligent,the most intelligent,very intelligent,A,2,uerj;espcex;efomm;epcar;colegio_naval
+247,Ingles,Grammar,Choose the correct question form: 'Where ___ you yesterday?',were,was,are,is,did,A,1,uerj;espcex;efomm;epcar;colegio_naval
+248,Ingles,Vocabulary,The word 'environment' in English refers to:,The natural surroundings,The government,The economy,The society,The weather,A,2,uerj;espcex;efomm;epcar;colegio_naval
+249,Ingles,Vocabulary,The meaning of the word 'sustainable' in 'sustainable development' is:,Able to be maintained without depleting resources,Related to technology,Concerning economic growth only,Referring to politics,About education,A,3,uerj;espcex;efomm;epcar;colegio_naval
+250,Ingles,Vocabulary,The antonym of 'ancient' is:,Modern,Old,Historic,Traditional,Classic,A,2,uerj;espcex;efomm;epcar;colegio_naval
+251,Ingles,Reading Comprehension,In the sentence 'Despite the rain the match continued' the word 'despite' indicates:,Contrast/concession,Cause,Time,Purpose,Condition,A,3,uerj;espcex;efomm;epcar;colegio_naval
+252,Ingles,Reading Comprehension,The word 'Furthermore' in English is used to:,Add information,Show contrast,Express cause,Indicate conclusion,Show time,A,3,uerj;espcex;efomm;epcar;colegio_naval
+253,Ingles,Grammar,The modal verb that expresses obligation or necessity is:,must/have to,might,could,would,should,A,1,uerj;espcex;efomm;epcar;colegio_naval
+254,Ingles,Grammar,In reported speech 'I am happy' becomes:,He said that he was happy,He said that he is happy,He said that he will be happy,He said that he has been happy,He says that he was happy,A,3,uerj;espcex;efomm;epcar;colegio_naval
+255,Ingles,Grammar,The correct preposition in 'She is interested ___ science' is:,in,of,at,on,for,A,1,uerj;espcex;efomm;epcar;colegio_naval
+256,Ingles,Grammar,The plural form of 'phenomenon' is:,phenomena,phenomenons,phenomenon,phenomen,phenomenas,A,3,uerj;espcex;efomm;epcar;colegio_naval
+257,Ingles,Grammar,Choose the sentence with correct subject-verb agreement:,The news is shocking,The news are shocking,The news were shocking,The news have been shocking,The news was shocking,A,3,uerj;espcex;efomm;epcar;colegio_naval
+258,Ingles,Reading Comprehension,The genre of a text that presents arguments to defend a point of view is called:,Argumentative/Persuasive,Narrative,Descriptive,Expository,Instructional,A,3,uerj;espcex;efomm;epcar;colegio_naval
+259,Ingles,Vocabulary,The phrase 'to take for granted' means:,To not appreciate something/someone,To accept a challenge,To give away freely,To work hard for,To save money,A,4,uerj;espcex;efomm;epcar;colegio_naval
+260,Ingles,Grammar,The gerund form of 'swim' is:,swimming,swimmed,swam,swum,swiming,A,2,uerj;espcex;efomm;epcar;colegio_naval
+261,Ingles,Reading Comprehension,In English the prefix 'un-' in words like 'unhappy' and 'unlikely' indicates:,Negation or opposite,Repetition,Excess,Before,Again,A,1,uerj;espcex;efomm;epcar;colegio_naval
+262,Ingles,Grammar,Choose the correct sentence using 'used to':,I used to play tennis when I was young,I use to play tennis when I was young,I am used to play tennis,I used play tennis when I was young,I was used to play tennis,A,3,uerj;espcex;efomm;epcar;colegio_naval
+263,Ciencias,Biologia Basica,A fotossintese e realizada pelas plantas e consiste em transformar:,Luz solar CO₂ e agua em glicose e oxigenio,Glicose e oxigenio em CO₂ e agua,Nitrogenio em proteinas,Minerais em vitaminas,Agua em O₂ apenas,A,1,colegio_naval
+264,Ciencias,Biologia Basica,Os seres vivos sao classificados em reinos. As bacterias pertencem ao reino:,Monera,Fungi,Protista,Animalia,Plantae,A,2,colegio_naval
+265,Ciencias,Biologia Basica,A celula animal e diferente da vegetal por nao possuir:,Parede celular e cloroplasto,Nucleo,Mitocondria,Membrana plasmatica,Ribossomo,A,1,colegio_naval
+266,Ciencias,Biologia Basica,O sistema respiratorio humano e responsavel por:,Captar oxigenio e eliminar dioxido de carbono,Digerir os alimentos,Transportar nutrientes pelo corpo,Filtrar o sangue,Produzir hormonios,A,2,colegio_naval
+267,Ciencias,Biologia Basica,As vacinas previnem doencas porque:,Estimulam o sistema imunologico a produzir anticorpos,Matam bacterias diretamente,Aumentam a temperatura do corpo,Eliminam virus do sangue,Fornecem antibioticos,A,1,colegio_naval
+268,Ciencias,Biologia Basica,O coração humano e dividido em quantas camaras?,4,2,3,6,8,A,2,colegio_naval
+269,Ciencias,Biologia Basica,A AIDS e causada pelo virus:,HIV,HPV,H1N1,Ebola,Dengue,A,1,colegio_naval
+270,Ciencias,Biologia Basica,Os genes sao formados por:,DNA (acido desoxirribonucleico),RNA apenas,Proteinas,Lipideos,Carboidratos,A,2,colegio_naval
+271,Ciencias,Fisica Basica,A velocidade de um carro que percorre 100 km em 2 horas e:,50 km/h,200 km/h,100 km/h,25 km/h,150 km/h,A,1,colegio_naval
+272,Ciencias,Fisica Basica,A agua ferve a 100°C ao nivel do mar. Em Kelvin isso equivale a:,373 K,100 K,273 K,473 K,200 K,A,2,colegio_naval
+273,Ciencias,Fisica Basica,A energia potencial gravitacional depende da:,Massa e altura do objeto,Velocidade e massa,Temperatura e pressao,Cor e material,Forma do objeto,A,1,colegio_naval
+274,Ciencias,Fisica Basica,O fenomeno em que um raio de luz muda de direcao ao passar de um meio para outro e chamado de:,Refracao,Reflexao,Difracao,Absorcao,Polarizacao,A,2,colegio_naval
+275,Ciencias,Fisica Basica,A unidade de medida de potencia eletrica no Sistema Internacional e o:,Watt (W),Joule (J),Newton (N),Ampere (A),Volt (V),A,1,colegio_naval
+276,Ciencias,Fisica Basica,O principio da conservacao de energia afirma que a energia:,Nao pode ser criada nem destruida apenas transformada,Pode ser criada pela materia,E sempre destruida no movimento,E igual a massa,Depende da cor dos objetos,A,2,colegio_naval
+277,Ciencias,Fisica Basica,O som necessita de um meio material para se propagar pois e uma onda:,Mecanica,Eletromagnetica,Luminosa,De radio,De calor,A,3,colegio_naval
+278,Ciencias,Fisica Basica,A forca de atracao entre dois corpos e proporcional a suas massas e inversamente proporcional ao quadrado da distancia. Esta e a Lei da:,Gravitacao Universal de Newton,Inercia de Newton,Acao e Reacao de Newton,Boyle para gases,Conservacao de energia,A,3,colegio_naval
+279,Ciencias,Quimica Basica,A agua e uma substancia formada por:,2 atomos de hidrogenio e 1 de oxigenio,1 atomo de hidrogenio e 2 de oxigenio,3 atomos de hidrogenio,2 atomos de oxigenio,Apenas hidrogenio,A,1,colegio_naval
+280,Ciencias,Quimica Basica,Os metais em geral sao bons condutores de:,Calor e eletricidade,Luz apenas,Som apenas,Magnetismo apenas,Nenhuma das anteriores,A,2,colegio_naval
+281,Ciencias,Quimica Basica,A reacao quimica que ocorre quando um metal enferruja (oxida) chama-se:,Oxidacao (corrosao),Reducao,Neutralizacao,Fotossintese,Fermentacao,A,1,colegio_naval
+282,Ciencias,Quimica Basica,A tabela periodica organiza os elementos quimicos em ordem crescente de:,Numero atomico (quantidade de protons),Massa atomica,Tamanho do atomo,Estado fisico,Eletronegatividade,A,2,colegio_naval
+283,Ciencias,Quimica Basica,A mistura de agua e sal de cozinha (NaCl) pode ser separada pelo processo de:,Evaporacao (destilacao simples),Filtracao,Decantacao,Centrifugacao,Flotacao,A,1,colegio_naval
+284,Ciencias,Quimica Basica,O pH de uma solucao acida e:,Menor que 7,Igual a 7,Maior que 7,Igual a 14,Igual a 0,A,2,colegio_naval
+285,Ciencias,Quimica Basica,A combustao do gas natural (metano CH₄) produz:,CO₂ e H₂O,CO e H₂,C e H₂O,CO₂ e H₂,CH₄ e O₂,A,1,colegio_naval
+286,Estudos_Sociais,Historia Brasil,O Brasil foi colonizado por:,Portugal,Espanha,Franca,Holanda,Inglaterra,A,2,colegio_naval
+287,Estudos_Sociais,Historia Brasil,A capital do Brasil e:,Brasilia,Rio de Janeiro,Sao Paulo,Salvador,Belo Horizonte,A,1,colegio_naval
+288,Estudos_Sociais,Historia Brasil,O Brasil tornou-se independente de Portugal em:,1822,1889,1808,1500,1888,A,2,colegio_naval
+289,Estudos_Sociais,Historia Geral,A organizacao que busca manter a paz entre as nacoes e chamada de:,ONU (Organizacao das Nacoes Unidas),FMI,OTAN,MERCOSUL,UNESCO,A,1,colegio_naval
+290,Estudos_Sociais,Historia Geral,A Primeira Guerra Mundial ocorreu entre os anos de:,1914-1918,1939-1945,1900-1905,1920-1925,1910-1916,A,2,colegio_naval
+291,Estudos_Sociais,Historia Geral,A Segunda Guerra Mundial terminou em:,1945,1944,1946,1943,1942,A,1,colegio_naval
+292,Estudos_Sociais,Historia Brasil,A escravidao foi abolida no Brasil em:,1888,1889,1822,1900,1850,A,2,colegio_naval
+293,Estudos_Sociais,Historia Brasil,O periodo em que o Brasil foi governado pelo Exercito (ditadura militar) foi entre:,1964-1985,1945-1960,1889-1930,1930-1945,1985-1990,A,1,colegio_naval
+294,Estudos_Sociais,Geografia,O maior pais do mundo em extensao territorial e:,Russia,Canada,China,Brasil,Estados Unidos,A,2,colegio_naval
+295,Estudos_Sociais,Geografia,O Brasil faz fronteira com quantos paises sul-americanos?,10,9,8,12,7,A,3,colegio_naval
+296,Estudos_Sociais,Geografia,O maior rio do mundo em volume de agua e o:,Amazonas,Nilo,Mississippi,Parana,Yangtze,A,2,colegio_naval
+297,Estudos_Sociais,Geografia,O continente africano e o segundo maior do mundo. Qual o maior?,Asia,America,Europa,Oceania,Antartica,A,1,colegio_naval
+298,Estudos_Sociais,Geografia,A lingua oficial do Brasil e o:,Portugues,Espanhol,Ingles,Frances,Italiano,A,2,colegio_naval
+299,Estudos_Sociais,Historia Geral,A internet foi criada originalmente como projeto:,Militar norte-americano (ARPANET),Comercial europeu,Academico brasileiro,Cientifico japones,Cultural frances,A,3,colegio_naval
+300,Estudos_Sociais,Historia Brasil,A Proclamacao da Republica no Brasil foi liderada por:,Marechal Deodoro da Fonseca,Dom Pedro II,Getulio Vargas,Tiradentes,Jose Bonifacio,A,2,colegio_naval
