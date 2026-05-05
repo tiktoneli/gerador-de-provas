@@ -5,7 +5,7 @@ from pathlib import Path
 
 import pandas as pd
 from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_PARAGRAPH_ALIGNMENT as WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt
 
@@ -74,22 +74,94 @@ def _filtrar(df: pd.DataFrame, disciplina: str, modelo_nome: str) -> pd.DataFram
     return df[mask_disc & mask_modelo]
 
 
+def _normalizar_assuntos(assuntos_cfg) -> set[str]:
+    if assuntos_cfg is None:
+        return set()
+    if isinstance(assuntos_cfg, str):
+        return {assuntos_cfg.strip().lower()} if assuntos_cfg.strip() else set()
+    if isinstance(assuntos_cfg, list):
+        return {
+            str(a).strip().lower()
+            for a in assuntos_cfg
+            if str(a).strip()
+        }
+    return set()
+
+
+def _filtrar_por_assunto(pool: pd.DataFrame, bloco: dict) -> pd.DataFrame:
+    assuntos = _normalizar_assuntos(bloco.get("assuntos", bloco.get("assunto")))
+    if not assuntos:
+        return pool
+    return pool[pool["assunto"].fillna("").str.strip().str.lower().isin(assuntos)]
+
+
+def _normalizar_regras_assunto(
+    regras_assunto: dict[str, dict[str, int]] | None,
+) -> dict[str, dict[str, int]]:
+    if not regras_assunto:
+        return {}
+    normalizado: dict[str, dict[str, int]] = {}
+    for disciplina, assuntos in regras_assunto.items():
+        disc_key = str(disciplina).strip().lower()
+        if not disc_key or not isinstance(assuntos, dict):
+            continue
+        bucket: dict[str, int] = {}
+        for assunto, minimo in assuntos.items():
+            assunto_key = str(assunto).strip().lower()
+            try:
+                minimo_int = int(minimo)
+            except (TypeError, ValueError):
+                continue
+            if assunto_key and minimo_int > 0:
+                bucket[assunto_key] = minimo_int
+        if bucket:
+            normalizado[disc_key] = bucket
+    return normalizado
+
+
 def _selecionar_questoes(
     pool: pd.DataFrame,
+    disciplina: str,
     quantidade: int,
     dif_range: list[int],
     distribuicao: dict[int, float],
     rng: random.Random,
     usadas: set[str],
+    regras_assunto: dict[str, dict[str, int]] | None = None,
+    aplicar_distribuicao: bool = True,
 ) -> list[dict]:
-    """Selects questions by difficulty distribution.
-    Fills shortages in a level from other valid levels rather than failing."""
+    """Selects questions by difficulty distribution."""
     pool_valido = pool[
         ~pool["id"].isin(usadas) & pool["dificuldade"].between(dif_range[0], dif_range[1])
     ]
-    cotas = _calcular_cotas(quantidade, distribuicao)
+    regras_norm = _normalizar_regras_assunto(regras_assunto)
+    regras_disc = regras_norm.get(disciplina.strip().lower(), {})
     selecionadas: list[dict] = []
     ids_sel: set[str] = set()
+
+    # Primeiro, cumpre mínimos por assunto da disciplina (se houver).
+    for assunto, minimo in regras_disc.items():
+        if minimo <= 0:
+            continue
+        grupo_assunto = pool_valido[
+            pool_valido["assunto"].fillna("").str.strip().str.lower().eq(assunto)
+            & (~pool_valido["id"].isin(ids_sel))
+        ].to_dict("records")
+        escolhidos = rng.sample(grupo_assunto, min(minimo, len(grupo_assunto)))
+        selecionadas.extend(escolhidos)
+        ids_sel.update(str(q["id"]) for q in escolhidos)
+
+    faltam_total = quantidade - len(selecionadas)
+    if faltam_total <= 0:
+        return selecionadas[:quantidade]
+
+    if not aplicar_distribuicao:
+        restantes = pool_valido[~pool_valido["id"].isin(ids_sel)].to_dict("records")
+        complemento = rng.sample(restantes, min(faltam_total, len(restantes)))
+        selecionadas.extend(complemento)
+        return selecionadas
+
+    cotas = _calcular_cotas(faltam_total, distribuicao)
 
     for nivel, cota in cotas.items():
         if cota == 0:
@@ -97,18 +169,14 @@ def _selecionar_questoes(
         grupo = pool_valido[
             (pool_valido["dificuldade"] == nivel) & (~pool_valido["id"].isin(ids_sel))
         ].to_dict("records")
-        escolhidos = rng.sample(grupo, min(cota, len(grupo)))
+        if len(grupo) < cota:
+            raise ValueError(
+                f"Dificuldade {nivel}: necessário {cota}, disponível {len(grupo)}. "
+                "Inclua mais questões desse nível ou ajuste a distribuição."
+            )
+        escolhidos = rng.sample(grupo, cota)
         selecionadas.extend(escolhidos)
         ids_sel.update(str(q["id"]) for q in escolhidos)
-
-        faltando = cota - len(escolhidos)
-        if faltando:
-            restantes = pool_valido[
-                (pool_valido["dificuldade"] != nivel) & (~pool_valido["id"].isin(ids_sel))
-            ].to_dict("records")
-            complemento = rng.sample(restantes, min(faltando, len(restantes)))
-            selecionadas.extend(complemento)
-            ids_sel.update(str(q["id"]) for q in complemento)
 
     return selecionadas
 
@@ -120,14 +188,17 @@ def validar_banco(
     modelo_nome: str,
     config: dict,
     distribuicao_override: dict[int, float] | None = None,
+    regras_assunto: dict[str, dict[str, int]] | None = None,
+    aplicar_distribuicao: bool = True,
 ) -> dict[str, list[str]]:
     """Returns {"erros": [...], "avisos": [...]}:
     - erros: total shortage per subject — block generation.
-    - avisos: per-level shortfall — generation fills from other levels, but distribution won't be exact.
+    - avisos: per-level shortfall — sem compensação automática entre níveis.
     """
     modelo = config[modelo_nome]
     dif_range = modelo.get("dificuldade_range", [1, 5])
     dist_cfg = distribuicao_override or modelo.get("dificuldade_distribuicao")
+    regras_norm = _normalizar_regras_assunto(regras_assunto)
     erros: list[str] = []
     avisos: list[str] = []
 
@@ -137,7 +208,31 @@ def validar_banco(
             qtd = bloco["quantidade"]
 
             pool = _filtrar(df, disc, modelo_nome)
+            pool = _filtrar_por_assunto(pool, bloco)
             pool_valido = pool[pool["dificuldade"].between(dif_range[0], dif_range[1])]
+            regras_disc = regras_norm.get(disc.strip().lower(), {})
+
+            if regras_disc:
+                soma_minimos = sum(regras_disc.values())
+                if soma_minimos > qtd:
+                    erros.append(
+                        f"{dia_key} / {disc}: soma dos mínimos por assunto ({soma_minimos}) "
+                        f"é maior que a quantidade do bloco ({qtd})."
+                    )
+                for assunto, minimo in regras_disc.items():
+                    disponivel_assunto = int(
+                        pool_valido["assunto"]
+                        .fillna("")
+                        .str.strip()
+                        .str.lower()
+                        .eq(assunto)
+                        .sum()
+                    )
+                    if disponivel_assunto < minimo:
+                        erros.append(
+                            f"{dia_key} / {disc} / assunto '{assunto}': necessário {minimo}, "
+                            f"disponível {disponivel_assunto}."
+                        )
 
             if len(pool_valido) < qtd:
                 erros.append(
@@ -146,7 +241,7 @@ def validar_banco(
                 )
                 continue
 
-            if dist_cfg:
+            if aplicar_distribuicao and dist_cfg:
                 dist = {int(k): float(v) for k, v in dist_cfg.items()}
                 cotas = _calcular_cotas(qtd, dist)
                 for nivel, necessario in cotas.items():
@@ -157,7 +252,7 @@ def validar_banco(
                         avisos.append(
                             f"{dia_key} / {disc} / dif.{nivel}: "
                             f"necessário {necessario}, disponível {disponivel} "
-                            f"(será compensado por outros níveis)"
+                            f"(inclua mais questões desse nível ou reduza a cota desse nível)"
                         )
 
     return {"erros": erros, "avisos": avisos}
@@ -238,6 +333,8 @@ def gerar_prova(
     caminho_csv: str | Path,
     semente: int | None = None,
     distribuicao_override: dict[int, float] | None = None,
+    regras_assunto: dict[str, dict[str, int]] | None = None,
+    aplicar_distribuicao: bool = True,
 ) -> list[Path]:
     """Gera cadernos de prova e gabarito numa pasta timestamped. Retorna arquivos criados."""
     config = carregar_config()
@@ -253,9 +350,21 @@ def gerar_prova(
         else distribuicao_efetiva(modelo)
     )
 
-    resultado = validar_banco(df, modelo_nome, config, distribuicao_override)
+    resultado = validar_banco(
+        df,
+        modelo_nome,
+        config,
+        distribuicao_override,
+        regras_assunto,
+        aplicar_distribuicao,
+    )
     if resultado["erros"]:
         raise ValueError("Questões insuficientes:\n" + "\n".join(resultado["erros"]))
+    if aplicar_distribuicao and resultado["avisos"]:
+        raise ValueError(
+            "Distribuição por dificuldade inviável sem compensação:\n"
+            + "\n".join(resultado["avisos"])
+        )
 
     letras = ["A", "B", "C", "D", "E"][: modelo["alternativas"]]
     redacao_dia = modelo.get("redacao_dia")
@@ -278,8 +387,17 @@ def gerar_prova(
 
         for bloco in dia["blocos"]:
             pool = _filtrar(df, bloco["disciplina"], modelo_nome)
+            pool = _filtrar_por_assunto(pool, bloco)
             selecionadas = _selecionar_questoes(
-                pool, bloco["quantidade"], dif_range, distribuicao, rng, usadas
+                pool,
+                bloco["disciplina"],
+                bloco["quantidade"],
+                dif_range,
+                distribuicao,
+                rng,
+                usadas,
+                regras_assunto,
+                aplicar_distribuicao,
             )
             _adicionar_titulo_bloco(doc, bloco["exibicao"])
             for q in selecionadas:
