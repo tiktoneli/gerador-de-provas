@@ -1,43 +1,43 @@
-id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
+﻿id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 1,Matematica,Funcoes,"Se f(x) = 3x - 1, entao f(4) e igual a:",11,13,9,7,15,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-2,Matematica,Funcoes,A funcao f(x) = x² - 4x + 4 pode ser reescrita como:,( x-2)²,( x+2)²,(x-2)(x+2),(x-4)²,x²-4,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-3,Matematica,Funcoes,As raizes reais da equacao x² - 5x + 6 = 0 sao:,x=2 e x=3,x=1 e x=6,x=-2 e x=-3,x=2 e x=-3,x=5 e x=-1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-4,Matematica,Funcoes,O vertice da parabola f(x) = x² - 4x + 3 e o ponto:,"(2, -1)","(2, 3)","(-2, 1)","(4, 3)","(1, 0)",A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-5,Matematica,Funcoes,Se log₂(x) = 5 entao x e igual a:,32,10,25,64,16,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+2,Matematica,Funcoes,A funcao f(x) = xÂ² - 4x + 4 pode ser reescrita como:,( x-2)Â²,( x+2)Â²,(x-2)(x+2),(x-4)Â²,xÂ²-4,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+3,Matematica,Funcoes,As raizes reais da equacao xÂ² - 5x + 6 = 0 sao:,x=2 e x=3,x=1 e x=6,x=-2 e x=-3,x=2 e x=-3,x=5 e x=-1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+4,Matematica,Funcoes,O vertice da parabola f(x) = xÂ² - 4x + 3 e o ponto:,"(2, -1)","(2, 3)","(-2, 1)","(4, 3)","(1, 0)",A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+5,Matematica,Funcoes,Se logâ‚‚(x) = 5 entao x e igual a:,32,10,25,64,16,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 6,Matematica,Funcoes,A funcao f(x) = 2^x assume o valor 64 quando x e igual a:,6,5,7,8,4,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-7,Matematica,Funcoes,O valor maximo da funcao f(x) = -x² + 6x - 5 e:,4,5,6,3,1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+7,Matematica,Funcoes,O valor maximo da funcao f(x) = -xÂ² + 6x - 5 e:,4,5,6,3,1,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 8,Matematica,Funcoes,Para qual valor de x a funcao f(x) = 2x - 10 se anula?,5,-5,10,-10,2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-9,Matematica,Funcoes,O dominio da funcao f(x) = raiz(x + 5) e o conjunto:,x ≥ -5,x > -5,x ≤ 5,x ≥ 5,todos os reais,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-10,Matematica,Funcoes,A soma das raizes da equacao x² - 9x + 14 = 0 e:,9,14,7,2,5,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-11,Matematica,Funcoes,O produto das raizes da equacao x² - 7x + 12 = 0 e:,12,-7,7,-12,3,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+9,Matematica,Funcoes,O dominio da funcao f(x) = raiz(x + 5) e o conjunto:,x â‰¥ -5,x > -5,x â‰¤ 5,x â‰¥ 5,todos os reais,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+10,Matematica,Funcoes,A soma das raizes da equacao xÂ² - 9x + 14 = 0 e:,9,14,7,2,5,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+11,Matematica,Funcoes,O produto das raizes da equacao xÂ² - 7x + 12 = 0 e:,12,-7,7,-12,3,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 12,Matematica,Funcoes,Se f(x) = 2^x e g(x) = x + 1 entao f(g(2)) e igual a:,8,4,16,6,32,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-13,Matematica,Geometria Plana,A area de um quadrado de lado 6 cm e:,36 cm²,24 cm²,12 cm²,48 cm²,18 cm²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+13,Matematica,Geometria Plana,A area de um quadrado de lado 6 cm e:,36 cmÂ²,24 cmÂ²,12 cmÂ²,48 cmÂ²,18 cmÂ²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 14,Matematica,Geometria Plana,O perimetro de um retangulo com lados 4 cm e 7 cm e:,22 cm,28 cm,11 cm,14 cm,18 cm,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-15,Matematica,Geometria Plana,A area de um triangulo com base 10 cm e altura 6 cm e:,30 cm²,60 cm²,16 cm²,20 cm²,15 cm²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-16,Matematica,Geometria Plana,A area de um circulo com raio 5 cm e igual a (use π):,25π cm²,10π cm²,5π cm²,50π cm²,100π cm²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-17,Matematica,Geometria Plana,Dois angulos sao suplementares e um mede 70°. O outro mede:,110°,20°,120°,160°,90°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+15,Matematica,Geometria Plana,A area de um triangulo com base 10 cm e altura 6 cm e:,30 cmÂ²,60 cmÂ²,16 cmÂ²,20 cmÂ²,15 cmÂ²,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+16,Matematica,Geometria Plana,A area de um circulo com raio 5 cm e igual a (use Ï€):,25Ï€ cmÂ²,10Ï€ cmÂ²,5Ï€ cmÂ²,50Ï€ cmÂ²,100Ï€ cmÂ²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+17,Matematica,Geometria Plana,Dois angulos sao suplementares e um mede 70Â°. O outro mede:,110Â°,20Â°,120Â°,160Â°,90Â°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 18,Matematica,Geometria Plana,No triangulo retangulo a hipotenusa mede 13 cm e um cateto mede 5 cm. O outro cateto mede:,12 cm,8 cm,10 cm,11 cm,6 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-19,Matematica,Geometria Plana,A soma dos angulos internos de um hexagono regular e:,720°,540°,360°,900°,1080°,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-20,Matematica,Geometria Plana,A diagonal de um quadrado de lado 4 cm mede:,4√2 cm,4 cm,8 cm,2√2 cm,√2 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-21,Matematica,Geometria Plana,Num triangulo isosceles os angulos da base medem 65° cada. O angulo do vertice mede:,50°,70°,55°,130°,115°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-22,Matematica,Geometria Plana,A area de um losango com diagonais 6 cm e 8 cm e:,24 cm²,48 cm²,12 cm²,36 cm²,28 cm²,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-23,Matematica,Geometria Espacial,O volume de um cubo com aresta de 4 cm e:,64 cm³,16 cm³,48 cm³,32 cm³,96 cm³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-24,Matematica,Geometria Espacial,A area total de um cubo com aresta de 3 cm e:,54 cm²,36 cm²,27 cm²,18 cm²,72 cm²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-25,Matematica,Geometria Espacial,O volume de um paralelepipedo com dimensoes 2 cm x 4 cm x 5 cm e:,40 cm³,22 cm³,11 cm³,80 cm³,20 cm³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-26,Matematica,Geometria Espacial,O volume de um cilindro com raio 3 cm e altura 5 cm e:,45π cm³,15π cm³,30π cm³,90π cm³,9π cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-27,Matematica,Geometria Espacial,O volume de uma esfera com raio 3 cm e:,36π cm³,9π cm³,4π cm³,108π cm³,27π cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-28,Matematica,Geometria Espacial,Uma piramide quadrangular tem base de lado 6 cm e altura 4 cm. Seu volume e:,48 cm³,144 cm³,72 cm³,96 cm³,24 cm³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-29,Matematica,Trigonometria,O seno de 30° e igual a:,1/2,√3/2,1,√2/2,0,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-30,Matematica,Trigonometria,O cosseno de 60° e igual a:,1/2,√3/2,1,0,√2/2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-31,Matematica,Trigonometria,A tangente de 45° e igual a:,1,0,√3,√2,1/2,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-32,Matematica,Trigonometria,Em um triangulo retangulo o angulo agudo e 30° e a hipotenusa mede 10 cm. O cateto oposto mede:,5 cm,8 cm,10 cm,3 cm,7 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-33,Matematica,Trigonometria,A identidade trigonometrica sen²(x) + cos²(x) e sempre igual a:,1,0,2,sen(2x),cos(2x),A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+19,Matematica,Geometria Plana,A soma dos angulos internos de um hexagono regular e:,720Â°,540Â°,360Â°,900Â°,1080Â°,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+20,Matematica,Geometria Plana,A diagonal de um quadrado de lado 4 cm mede:,4âˆš2 cm,4 cm,8 cm,2âˆš2 cm,âˆš2 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+21,Matematica,Geometria Plana,Num triangulo isosceles os angulos da base medem 65Â° cada. O angulo do vertice mede:,50Â°,70Â°,55Â°,130Â°,115Â°,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+22,Matematica,Geometria Plana,A area de um losango com diagonais 6 cm e 8 cm e:,24 cmÂ²,48 cmÂ²,12 cmÂ²,36 cmÂ²,28 cmÂ²,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+23,Matematica,Geometria Espacial,O volume de um cubo com aresta de 4 cm e:,64 cmÂ³,16 cmÂ³,48 cmÂ³,32 cmÂ³,96 cmÂ³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+24,Matematica,Geometria Espacial,A area total de um cubo com aresta de 3 cm e:,54 cmÂ²,36 cmÂ²,27 cmÂ²,18 cmÂ²,72 cmÂ²,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+25,Matematica,Geometria Espacial,O volume de um paralelepipedo com dimensoes 2 cm x 4 cm x 5 cm e:,40 cmÂ³,22 cmÂ³,11 cmÂ³,80 cmÂ³,20 cmÂ³,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+26,Matematica,Geometria Espacial,O volume de um cilindro com raio 3 cm e altura 5 cm e:,45Ï€ cmÂ³,15Ï€ cmÂ³,30Ï€ cmÂ³,90Ï€ cmÂ³,9Ï€ cmÂ³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+27,Matematica,Geometria Espacial,O volume de uma esfera com raio 3 cm e:,36Ï€ cmÂ³,9Ï€ cmÂ³,4Ï€ cmÂ³,108Ï€ cmÂ³,27Ï€ cmÂ³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+28,Matematica,Geometria Espacial,Uma piramide quadrangular tem base de lado 6 cm e altura 4 cm. Seu volume e:,48 cmÂ³,144 cmÂ³,72 cmÂ³,96 cmÂ³,24 cmÂ³,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+29,Matematica,Trigonometria,O seno de 30Â° e igual a:,1/2,âˆš3/2,1,âˆš2/2,0,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+30,Matematica,Trigonometria,O cosseno de 60Â° e igual a:,1/2,âˆš3/2,1,0,âˆš2/2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+31,Matematica,Trigonometria,A tangente de 45Â° e igual a:,1,0,âˆš3,âˆš2,1/2,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+32,Matematica,Trigonometria,Em um triangulo retangulo o angulo agudo e 30Â° e a hipotenusa mede 10 cm. O cateto oposto mede:,5 cm,8 cm,10 cm,3 cm,7 cm,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+33,Matematica,Trigonometria,A identidade trigonometrica senÂ²(x) + cosÂ²(x) e sempre igual a:,1,0,2,sen(2x),cos(2x),A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 34,Matematica,Trigonometria,Se sen(x) = 3/5 e x esta no primeiro quadrante entao cos(x) e:,4/5,3/4,5/3,3/5,5/4,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 35,Matematica,Progressoes,Na PA (2; 5; 8; 11; ...) a razao e:,3,2,4,5,1,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 36,Matematica,Progressoes,O decimo termo da PA (1; 4; 7; ...) e:,28,25,31,40,19,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 37,Matematica,Progressoes,A soma dos 10 primeiros termos impares positivos (1; 3; 5; ...; 19) e:,100,50,55,45,90,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 38,Matematica,Progressoes,Na PG (2; 6; 18; 54; ...) a razao e:,3,2,4,6,9,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-39,Matematica,Progressoes,O 5° termo da PG (2; 6; 18; ...) e:,162,54,486,324,108,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+39,Matematica,Progressoes,O 5Â° termo da PG (2; 6; 18; ...) e:,162,54,486,324,108,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 40,Matematica,Progressoes,A soma dos infinitos termos da PG (1; 1/2; 1/4; ...) e:,2,1,4,3,infinita,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 41,Matematica,Probabilidade,Em uma urna com 4 bolas vermelhas e 6 azuis a probabilidade de sortear uma vermelha e:,2/5,3/5,1/4,4/10,1/10,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 42,Matematica,Probabilidade,A media aritmetica dos numeros 4; 6; 8; 10; 12 e:,8,7,9,10,6,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
@@ -46,7 +46,7 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 45,Matematica,Probabilidade,De um grupo de 6 pessoas quantas combinacoes de 2 podem ser formadas?,15,30,6,12,10,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 46,Matematica,Algebra,A solucao da equacao 3x + 6 = 21 e:,5,3,7,9,15,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 47,Matematica,Algebra,A solucao do sistema { x + y = 10 ; x - y = 4 } e:,x=7 e y=3,x=4 e y=6,x=6 e y=4,x=3 e y=7,x=8 e y=2,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-48,Matematica,Algebra,A inequacao 4x - 8 > 0 tem solucao:,x > 2,x < 2,x > -2,x < -2,x ≥ 2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+48,Matematica,Algebra,A inequacao 4x - 8 > 0 tem solucao:,x > 2,x < 2,x > -2,x < -2,x â‰¥ 2,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 49,Matematica,Algebra,Se 3^(x+1) = 81 entao x e igual a:,3,4,2,9,27,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 50,Matematica,Algebra,O valor de 5! (cinco fatorial) e:,120,60,24,720,20,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 51,Matematica,Matrizes,O determinante da matriz [ [2; 3]; [1; 4] ] e:,5,8,11,-5,14,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
@@ -54,7 +54,7 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 53,Matematica,Financeira,Um capital de R$ 1000 aplicado a uma taxa de 10% ao ano por 2 anos em juros simples rende:,R$ 200,R$ 100,R$ 210,R$ 1200,R$ 300,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 54,Matematica,Financeira,Um produto custava R$ 200 e sofreu um aumento de 15%. O novo preco e:,R$ 230,R$ 215,R$ 220,R$ 240,R$ 300,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 55,Matematica,Financeira,Se um produto custava R$ 500 e agora custa R$ 400 o percentual de desconto e:,20%,25%,10%,15%,80%,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-56,Matematica,Numeros,O resultado de 2³ × 2⁴ e:,128,64,32,256,512,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+56,Matematica,Numeros,O resultado de 2Â³ Ã— 2â´ e:,128,64,32,256,512,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 57,Matematica,Numeros,O MMC de 6 e 9 e:,18,3,54,9,6,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 58,Portugues,Interpretacao,A conjuncao 'embora' em 'Embora estivesse cansado ele continuou trabalhando' indica relacao de:,Concessao,Causalidade,Condicao,Finalidade,Temporalidade,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 59,Portugues,Interpretacao,A figura de linguagem presente em 'A floresta e o pulmao do mundo' e:,Metafora,Comparacao,Hiperbole,Metonimia,Prosopopeia,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
@@ -78,21 +78,21 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 77,Portugues,Gramatica,Em qual alternativa a palavra esta escrita INCORRETAMENTE:,Excessao,Excecao,Espetaculo,Extraordinario,Espectador,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 78,Portugues,Gramatica,O adjetivo 'feliz' forma o superlativo absoluto sintetico:,felicissimo,muito feliz,o mais feliz,bastante feliz,felizmente,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 79,Portugues,Gramatica,A classe gramatical da palavra 'entretanto' e:,Conjuncao,Preposicao,Adverbio,Pronome,Substantivo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-80,Portugues,Gramatica,Assinale o emprego CORRETO do 'por que':,Por que voce nao veio?,Essa e a razao porquê estudei,Nao sei porque fez isso,Por isso portanto foi,Portanto porque so,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+80,Portugues,Gramatica,Assinale o emprego CORRETO do 'por que':,Por que voce nao veio?,Essa e a razao porquÃª estudei,Nao sei porque fez isso,Por isso portanto foi,Portanto porque so,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 81,Portugues,Gramatica,Em 'Quero que voce venha' o modo do verbo 'venha' e:,Subjuntivo,Indicativo,Imperativo,Infinitivo,Participo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 82,Portugues,Gramatica,O processo de formacao da palavra 'deslealdade' e:,Derivacao prefixal e sufixal,Composicao,Derivacao regressiva,Abreviacao,Onomatopeia,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 83,Portugues,Gramatica,A funcao sintatica de 'livros' em 'Comprei livros novos' e:,Objeto direto,Sujeito,Predicativo,Adjunto adnominal,Complemento nominal,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-84,Portugues,Gramatica,Assinale a alternativa em que 'se' e particula apassivadora:,Vendem-se casas neste bairro,Machucou-se ao cair,Ela se penteou,Eles se abraçaram,Pode-se entrar,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+84,Portugues,Gramatica,Assinale a alternativa em que 'se' e particula apassivadora:,Vendem-se casas neste bairro,Machucou-se ao cair,Ela se penteou,Eles se abraÃ§aram,Pode-se entrar,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 85,Portugues,Gramatica,Qual das alternativas apresenta um substantivo coletivo?,Alcateia (de lobos),Corrida (de cavalos),Migrar (de passaros),Latir (de caes),Rugir (de leoes),A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 86,Portugues,Gramatica,O prefixo de sentido negativo esta presente em:,Infeliz,Subnutrido,Refazer,Transgredir,Predizer,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-87,Portugues,Literatura,O Modernismo brasileiro iniciou-se com:,Semana de Arte Moderna de 1922,Publicacao de Iracema,Abolicao da escravatura,Publicacao de Os Lusíadas,Proclamacao da Republica,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+87,Portugues,Literatura,O Modernismo brasileiro iniciou-se com:,Semana de Arte Moderna de 1922,Publicacao de Iracema,Abolicao da escravatura,Publicacao de Os LusÃ­adas,Proclamacao da Republica,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 88,Portugues,Literatura,O movimento literario que valorizou o indio brasileiro como heroi nacional foi o:,Romantismo,Barroco,Realismo,Modernismo,Classicismo,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 89,Portugues,Literatura,'Dom Casmurro' de Machado de Assis pertence ao movimento literario:,Realismo,Romantismo,Modernismo,Barroco,Naturalismo,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 90,Portugues,Literatura,Guimaraes Rosa e o autor de:,Grande Sertao: Veredas,O Cortico,Memorias Postumas de Bras Cubas,Iracema,Vidas Secas,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-91,Portugues,Literatura,O poema 'Os Lusíadas' de Luis de Camoes pertence ao:,Classicismo portugues,Barroco,Romantismo,Modernismo,Renascimento brasileiro,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+91,Portugues,Literatura,O poema 'Os LusÃ­adas' de Luis de Camoes pertence ao:,Classicismo portugues,Barroco,Romantismo,Modernismo,Renascimento brasileiro,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 92,Portugues,Literatura,O autor de 'Vidas Secas' que retratou a seca e o sofrimento do nordestino e:,Graciliano Ramos,Jorge Amado,Guimaraes Rosa,Jose de Alencar,Erico Verissimo,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 93,Portugues,Literatura,'Iracema' de Jose de Alencar e um exemplo de romance:,Indianista,Realista,Naturalista,Barroco,Moderno,A,1,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
-94,Portugues,Literatura,O Realismo/Naturalismo brasileiro iniciou-se com a publicacao de:,O Mulato de Alui­sio Azevedo,Dom Casmurro,Iracema,Cantos de Ossian,O Cortico,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
+94,Portugues,Literatura,O Realismo/Naturalismo brasileiro iniciou-se com a publicacao de:,O Mulato de AluiÂ­sio Azevedo,Dom Casmurro,Iracema,Cantos de Ossian,O Cortico,A,5,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 95,Portugues,Literatura,Carlos Drummond de Andrade pertence a qual geracao modernista?,Segunda geracao (1930),Primeira geracao (1922),Terceira geracao (1945),Pre-modernismo,Pos-modernismo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 96,Portugues,Literatura,A caracteristica principal do Barroco literario e o(a):,Conflito entre espirito e materia,Valorizacao da natureza,Exaltacao do heroi nacional,Ruptura com as tradicoes,Racionalismo extremo,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 97,Portugues,Literatura,Padre Antonio Vieira foi um grande representante do Barroco brasileiro. Sua obra mais conhecida e:,Sermao da Sexagesima,Iracema,Dom Casmurro,Grande Sertao,O Cortico,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
@@ -114,28 +114,28 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 113,Portugues,Morfologia,O processo de formacao da palavra 'guarda-chuva' e:,Composicao por justaposicao,Derivacao sufixal,Derivacao prefixal,Composicao por aglutinacao,Abreviacao,A,3,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 114,Portugues,Morfologia,A classe gramatical da palavra 'porem' em 'Estudei muito; porem nao passei' e:,Conjuncao adversativa,Substantivo,Adverbio,Pronome,Preposicao,A,2,enem;uerj;espcex;efomm;epcar;cbmerj;colegio_naval
 115,Fisica,Cinematica,Um carro percorre 180 km em 2 horas. Sua velocidade media e:,90 km/h,360 km/h,45 km/h,60 km/h,180 km/h,A,1,enem;uerj;espcex;efomm;epcar
-116,Fisica,Cinematica,Um objeto em queda livre parte do repouso. Apos 3 s sua velocidade e (g = 10 m/s²):,30 m/s,15 m/s,10 m/s,90 m/s,3 m/s,A,2,enem;uerj;espcex;efomm;epcar
+116,Fisica,Cinematica,Um objeto em queda livre parte do repouso. Apos 3 s sua velocidade e (g = 10 m/sÂ²):,30 m/s,15 m/s,10 m/s,90 m/s,3 m/s,A,2,enem;uerj;espcex;efomm;epcar
 117,Fisica,Cinematica,Um movel em MRU percorre 240 m em 8 s. Sua velocidade e:,30 m/s,60 m/s,15 m/s,120 m/s,20 m/s,A,1,enem;uerj;espcex;efomm;epcar
-118,Fisica,Cinematica,Um trem parte do repouso com aceleracao de 2 m/s². Apos 5 s sua velocidade e:,10 m/s,7 m/s,20 m/s,5 m/s,15 m/s,A,2,enem;uerj;espcex;efomm;epcar
-119,Fisica,Cinematica,Um corpo em MRUV com v0=0 e a=4 m/s² percorre em 3 s a distancia:,18 m,36 m,12 m,6 m,24 m,A,3,enem;uerj;espcex;efomm;epcar
+118,Fisica,Cinematica,Um trem parte do repouso com aceleracao de 2 m/sÂ². Apos 5 s sua velocidade e:,10 m/s,7 m/s,20 m/s,5 m/s,15 m/s,A,2,enem;uerj;espcex;efomm;epcar
+119,Fisica,Cinematica,Um corpo em MRUV com v0=0 e a=4 m/sÂ² percorre em 3 s a distancia:,18 m,36 m,12 m,6 m,24 m,A,3,enem;uerj;espcex;efomm;epcar
 120,Fisica,Cinematica,Dois trens se aproximam em trilhos paralelos. Um a 60 km/h e outro a 80 km/h. A velocidade relativa entre eles e:,140 km/h,20 km/h,70 km/h,100 km/h,60 km/h,A,3,enem;uerj;espcex;efomm;epcar
-121,Fisica,Cinematica,Um carro freia de 72 km/h ate parar com desaceleracao de 5 m/s². O espaco percorrido no frenamento e:,40 m,20 m,72 m,10 m,36 m,A,4,enem;uerj;espcex;efomm;epcar
-122,Fisica,Dinamica,Um bloco de 5 kg e submetido a uma forca de 20 N. Sua aceleracao e (despreze o atrito):,4 m/s²,100 m/s²,25 m/s²,0,4 N,A,2,enem;uerj;espcex;efomm;epcar
-123,Fisica,Dinamica,O peso de um objeto de massa 8 kg na Terra e (g = 10 m/s²):,80 N,8 N,800 N,0.8 N,8 kg,A,1,enem;uerj;espcex;efomm;epcar
+121,Fisica,Cinematica,Um carro freia de 72 km/h ate parar com desaceleracao de 5 m/sÂ². O espaco percorrido no frenamento e:,40 m,20 m,72 m,10 m,36 m,A,4,enem;uerj;espcex;efomm;epcar
+122,Fisica,Dinamica,Um bloco de 5 kg e submetido a uma forca de 20 N. Sua aceleracao e (despreze o atrito):,4 m/sÂ²,100 m/sÂ²,25 m/sÂ²,0,4 N,A,2,enem;uerj;espcex;efomm;epcar
+123,Fisica,Dinamica,O peso de um objeto de massa 8 kg na Terra e (g = 10 m/sÂ²):,80 N,8 N,800 N,0.8 N,8 kg,A,1,enem;uerj;espcex;efomm;epcar
 124,Fisica,Dinamica,A terceira lei de Newton (acao e reacao) afirma que:,Toda acao tem reacao igual e contraria,F = m.a,Um corpo em repouso tende a ficar em repouso,Forca e igual a pressao vezes area,Energia se conserva,A,2,enem;uerj;espcex;efomm;epcar
-125,Fisica,Dinamica,Um corpo de 2 kg e lançado verticalmente para cima com v=20 m/s. A altura maxima atingida e (g=10):,20 m,40 m,10 m,200 m,4 m,A,3,enem;uerj;espcex;efomm;epcar
+125,Fisica,Dinamica,Um corpo de 2 kg e lanÃ§ado verticalmente para cima com v=20 m/s. A altura maxima atingida e (g=10):,20 m,40 m,10 m,200 m,4 m,A,3,enem;uerj;espcex;efomm;epcar
 126,Fisica,Dinamica,O trabalho realizado por uma forca de 50 N ao deslocar um objeto 4 m na direcao da forca e:,200 J,50 J,800 J,100 J,400 J,A,2,enem;uerj;espcex;efomm;epcar
 127,Fisica,Dinamica,A potencia de um motor que realiza 6000 J de trabalho em 20 s e:,300 W,300 J,120000 W,6020 W,200 W,A,1,enem;uerj;espcex;efomm;epcar
-128,Fisica,Termodinamica,A temperatura de 27°C em Kelvin e:,300 K,27 K,246 K,373 K,273 K,A,2,enem;uerj;espcex;efomm;epcar
-129,Fisica,Termodinamica,A temperatura de 100°C em Fahrenheit e:,212°F,100°F,373°F,180°F,132°F,A,3,enem;uerj;espcex;efomm;epcar
-130,Fisica,Termodinamica,O calor especifico da agua e 1 cal/g°C. O calor necessario para aquecer 200 g de agua de 20°C a 70°C e:,10000 cal,50000 cal,200 cal,14000 cal,1000 cal,A,3,enem;uerj;espcex;efomm;epcar
+128,Fisica,Termodinamica,A temperatura de 27Â°C em Kelvin e:,300 K,27 K,246 K,373 K,273 K,A,2,enem;uerj;espcex;efomm;epcar
+129,Fisica,Termodinamica,A temperatura de 100Â°C em Fahrenheit e:,212Â°F,100Â°F,373Â°F,180Â°F,132Â°F,A,3,enem;uerj;espcex;efomm;epcar
+130,Fisica,Termodinamica,O calor especifico da agua e 1 cal/gÂ°C. O calor necessario para aquecer 200 g de agua de 20Â°C a 70Â°C e:,10000 cal,50000 cal,200 cal,14000 cal,1000 cal,A,3,enem;uerj;espcex;efomm;epcar
 131,Fisica,Termodinamica,O processo de transmissao de calor por contato direto entre moleculas e denominado:,Conducao,Conveccao,Irradiacao,Expansao,Sublimacao,A,1,enem;uerj;espcex;efomm;epcar
-132,Fisica,Termodinamica,A lei de Boyle-Mariotte (a T constante) estabelece que:,P×V = constante,P/V = constante,P+V = constante,P = V,V = T/P,A,3,enem;uerj;espcex;efomm;epcar
+132,Fisica,Termodinamica,A lei de Boyle-Mariotte (a T constante) estabelece que:,PÃ—V = constante,P/V = constante,P+V = constante,P = V,V = T/P,A,3,enem;uerj;espcex;efomm;epcar
 133,Fisica,Optica,Se a velocidade da luz no vacuo e c e o indice de refracao de um meio e n=2 entao a velocidade da luz nesse meio e:,c/2,c/3,2c,3c,c,A,3,enem;uerj;espcex;efomm;epcar
-134,Fisica,Eletricidade,A resistencia de um fio de cobre de comprimento L e secao A e (ρ = resistividade):,R = ρL/A,R = ρA/L,R = L/(ρA),R = A/(ρL),R = ρLA,A,3,enem;uerj;espcex;efomm;epcar
-135,Fisica,Eletricidade,Em um circuito com resistencia de 10 Ω e corrente de 2 A a tensao e (Lei de Ohm):,20 V,5 V,8 V,12 V,200 V,A,1,enem;uerj;espcex;efomm;epcar
-136,Fisica,Eletricidade,Dois resistores de 4 Ω cada em paralelo tem resistencia equivalente:,2 Ω,8 Ω,4 Ω,6 Ω,1 Ω,A,3,enem;uerj;espcex;efomm;epcar
-137,Fisica,Eletricidade,A potencia dissipada em um resistor de 5 Ω com corrente de 3 A e (P=R×I²):,45 W,15 W,8 W,90 W,3 W,A,3,enem;uerj;espcex;efomm;epcar
+134,Fisica,Eletricidade,A resistencia de um fio de cobre de comprimento L e secao A e (Ï = resistividade):,R = ÏL/A,R = ÏA/L,R = L/(ÏA),R = A/(ÏL),R = ÏLA,A,3,enem;uerj;espcex;efomm;epcar
+135,Fisica,Eletricidade,Em um circuito com resistencia de 10 Î© e corrente de 2 A a tensao e (Lei de Ohm):,20 V,5 V,8 V,12 V,200 V,A,1,enem;uerj;espcex;efomm;epcar
+136,Fisica,Eletricidade,Dois resistores de 4 Î© cada em paralelo tem resistencia equivalente:,2 Î©,8 Î©,4 Î©,6 Î©,1 Î©,A,3,enem;uerj;espcex;efomm;epcar
+137,Fisica,Eletricidade,A potencia dissipada em um resistor de 5 Î© com corrente de 3 A e (P=RÃ—IÂ²):,45 W,15 W,8 W,90 W,3 W,A,3,enem;uerj;espcex;efomm;epcar
 138,Fisica,Eletricidade,Cargas de mesmo sinal quando proximas:,Se repelem,Se atraem,Nao interagem,Se anulam,Se neutralizam,A,2,enem;uerj;espcex;efomm;epcar
 139,Fisica,Ondas,A velocidade de propagacao do som no ar e aproximadamente:,340 m/s,300 m/s,1500 m/s,3000 m/s,30 m/s,A,1,enem;uerj;espcex;efomm;epcar
 140,Quimica,Ligacoes Quimicas,A ligacao quimica formada por compartilhamento de pares de eletrons e denominada:,Covalente,Ionica,Metalica,Hidrogenio,Van der Waals,A,2,enem;uerj;espcex
@@ -143,24 +143,24 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 142,Quimica,Ligacoes Quimicas,O numero de ligacoes covalentes que o carbono (Z=6) forma e:,4,2,1,3,6,A,2,enem;uerj;espcex
 143,Quimica,Tabela Periodica,O elemento de numero atomico 11 (Sodio) pertence ao grupo:,IA (metais alcalinos),IIA (metais alcalino-terrosos),VIIA (halogenios),0 (gases nobres),IVA,A,1,enem;uerj;espcex
 144,Quimica,Tabela Periodica,Ao longo de um periodo (linha) da tabela periodica da esquerda para a direita o raio atomico:,Diminui,Aumenta,Permanece constante,Oscila,Depende do grupo,A,3,enem;uerj;espcex
-145,Quimica,Reacoes,O balanceamento correto da reacao de formacao da agua (H₂ + O₂ → H₂O) e:,2H₂ + O₂ → 2H₂O,H₂ + O₂ → H₂O,H₂ + 2O₂ → 2H₂O,2H₂ + 2O₂ → 2H₂O,4H₂ + O₂ → 4H₂O,A,3,enem;uerj;espcex
+145,Quimica,Reacoes,O balanceamento correto da reacao de formacao da agua (Hâ‚‚ + Oâ‚‚ â†’ Hâ‚‚O) e:,2Hâ‚‚ + Oâ‚‚ â†’ 2Hâ‚‚O,Hâ‚‚ + Oâ‚‚ â†’ Hâ‚‚O,Hâ‚‚ + 2Oâ‚‚ â†’ 2Hâ‚‚O,2Hâ‚‚ + 2Oâ‚‚ â†’ 2Hâ‚‚O,4Hâ‚‚ + Oâ‚‚ â†’ 4Hâ‚‚O,A,3,enem;uerj;espcex
 146,Quimica,Reacoes,Em uma reacao exotermica o calor e:,Liberado para o ambiente,Absorvido do ambiente,Nulo,Transformado em luz,Armazenado no produto,A,2,enem;uerj;espcex
 147,Quimica,Funcoes Inorganicas,O acido cloridrico (HCl) em solucao aquosa e classificado como:,Acido forte,Acido fraco,Base forte,Base fraca,Sal,A,1,enem;uerj;espcex
 148,Quimica,Funcoes Inorganicas,O hidroxido de sodio (NaOH) e classificado como:,Base forte,Base fraca,Acido forte,Acido fraco,Sal,A,2,enem;uerj;espcex
-149,Quimica,Funcoes Inorganicas,Uma solucao com pH = 7 a 25°C e considerada:,Neutra,Acida,Basica,Tampao,Saturada,A,1,enem;uerj;espcex
-150,Quimica,Funcoes Inorganicas,O sal formado pela reacao entre HCl e NaOH e:,NaCl,NaOH,HCl,NaHCO₃,Na₂CO₃,A,2,enem;uerj;espcex
-151,Quimica,Estequiometria,Na reacao 2H₂ + O₂ → 2H₂O quantas moles de agua sao produzidas a partir de 4 moles de H₂?,4 mol,2 mol,8 mol,1 mol,6 mol,A,3,enem;uerj;espcex
-152,Quimica,Estequiometria,A massa molar do CO₂ (C=12; O=16) e:,44 g/mol,28 g/mol,32 g/mol,22 g/mol,16 g/mol,A,2,enem;uerj;espcex
+149,Quimica,Funcoes Inorganicas,Uma solucao com pH = 7 a 25Â°C e considerada:,Neutra,Acida,Basica,Tampao,Saturada,A,1,enem;uerj;espcex
+150,Quimica,Funcoes Inorganicas,O sal formado pela reacao entre HCl e NaOH e:,NaCl,NaOH,HCl,NaHCOâ‚ƒ,Naâ‚‚COâ‚ƒ,A,2,enem;uerj;espcex
+151,Quimica,Estequiometria,Na reacao 2Hâ‚‚ + Oâ‚‚ â†’ 2Hâ‚‚O quantas moles de agua sao produzidas a partir de 4 moles de Hâ‚‚?,4 mol,2 mol,8 mol,1 mol,6 mol,A,3,enem;uerj;espcex
+152,Quimica,Estequiometria,A massa molar do COâ‚‚ (C=12; O=16) e:,44 g/mol,28 g/mol,32 g/mol,22 g/mol,16 g/mol,A,2,enem;uerj;espcex
 153,Quimica,Solucoes,A concentracao de uma solucao com 20 g de soluto dissolvidos em 500 mL de solucao e:,40 g/L,10 g/L,20 g/L,100 g/L,4 g/L,A,3,enem;uerj;espcex
-154,Quimica,Organica,A formula geral dos alcanos e:,CₙH₂ₙ₊₂,CₙH₂ₙ,CₙH₂ₙ₋₂,CₙHₙ,CₙH₂,A,2,enem;uerj;espcex
-155,Quimica,Organica,O grupo funcional -OH quando ligado a um carbono alifatico caracteriza a funcao:,Alcool,Eter,Aldei­do,Cetona,Acido carboxilico,A,1,enem;uerj;espcex
-156,Quimica,Organica,A combustao completa de um hidrocarboneto produz como produtos:,CO₂ e H₂O,CO e H₂O,C e H₂O,CO₂ e H₂,C e H₂,A,2,enem;uerj;espcex
-157,Quimica,Organica,O metano (CH₄) e um exemplo de:,Alcano,Alceno,Alcino,Aromatic,Alcadeno,A,1,enem;uerj;espcex
+154,Quimica,Organica,A formula geral dos alcanos e:,Câ‚™Hâ‚‚â‚™â‚Šâ‚‚,Câ‚™Hâ‚‚â‚™,Câ‚™Hâ‚‚â‚™â‚‹â‚‚,Câ‚™Hâ‚™,Câ‚™Hâ‚‚,A,2,enem;uerj;espcex
+155,Quimica,Organica,O grupo funcional -OH quando ligado a um carbono alifatico caracteriza a funcao:,Alcool,Eter,AldeiÂ­do,Cetona,Acido carboxilico,A,1,enem;uerj;espcex
+156,Quimica,Organica,A combustao completa de um hidrocarboneto produz como produtos:,COâ‚‚ e Hâ‚‚O,CO e Hâ‚‚O,C e Hâ‚‚O,COâ‚‚ e Hâ‚‚,C e Hâ‚‚,A,2,enem;uerj;espcex
+157,Quimica,Organica,O metano (CHâ‚„) e um exemplo de:,Alcano,Alceno,Alcino,Aromatic,Alcadeno,A,1,enem;uerj;espcex
 158,Quimica,Nucleo Atomico,O numero de protons no nucleo de um atomo e igual ao seu:,Numero atomico (Z),Numero de massa (A),Numero de neutrons,Numero de eletrons de valencia,Periodo na TP,A,2,enem;uerj;espcex
 159,Quimica,Nucleo Atomico,Isotopos sao atomos do mesmo elemento que diferem em:,Numero de neutrons,Numero de protons,Numero de eletrons,Numero atomico,Grupo na tabela,A,3,enem;uerj;espcex
 160,Biologia,Ecologia,Em uma cadeia alimentar o organismo que produz materia organica a partir de luz solar e denominado:,Produtor,Consumidor primario,Consumidor secundario,Decompositores,Parasita,A,2,enem;uerj
 161,Biologia,Ecologia,A biomassa diminui a cada nivel trofico em uma cadeia alimentar. Isso e explicado pela:,Perda de energia em cada nivel,Fotossintese dos produtores,Respiracao dos decompositores,Interacao entre especies,Ciclo hidrologico,A,3,enem;uerj
-162,Biologia,Ecologia,O ciclo do carbono inclui o processo de fotossintese que:,Retira CO₂ da atmosfera,Libera CO₂ na atmosfera,Transforma N₂ em nitratos,Produz O₃ na estratosfera,Decompoe materia organica,A,2,enem;uerj
+162,Biologia,Ecologia,O ciclo do carbono inclui o processo de fotossintese que:,Retira COâ‚‚ da atmosfera,Libera COâ‚‚ na atmosfera,Transforma Nâ‚‚ em nitratos,Produz Oâ‚ƒ na estratosfera,Decompoe materia organica,A,2,enem;uerj
 163,Biologia,Ecologia,O aquecimento global esta associado ao aumento da concentracao de:,Gases de efeito estufa,Oxigenio na atmosfera,Ozonio na estratosfera,Nitrogenio no solo,Vapor d'agua nos oceanos,A,1,enem;uerj
 164,Biologia,Ecologia,A relacao ecologica entre o liquen (fungo + alga) e um exemplo de:,Mutualismo,Parasitismo,Comensalismo,Amensalismo,Competicao,A,3,enem;uerj
 165,Biologia,Genetica,A lei da segregacao independente de Mendel (2a lei) refere-se a:,Heranca de dois ou mais pares de genes independentes,Heranca de um unico par de alelos,Dominancia incompleta,Heranca ligada ao sexo,Mutacoes geneticas,A,3,enem;uerj
@@ -181,7 +181,7 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 180,Historia,Brasil Colonial,O Tratado de Tordesilhas (1494) dividiu o Novo Mundo entre:,Portugal e Espanha,Portugal e Franca,Espanha e Holanda,Inglaterra e Portugal,Espanha e Franca,A,2,enem;uerj;espcex;epcar
 181,Historia,Brasil Colonial,O sistema de capitanias hereditarias foi implantado no Brasil a partir de:,1532 com Martim Afonso de Sousa,1500 com Pedro Alvares Cabral,1549 com Tome de Sousa,1600 com os jesuitas,1654 com a expulsao dos holandeses,A,3,enem;uerj;espcex;epcar
 182,Historia,Brasil Colonial,A principal riqueza exportada pelo Brasil no ciclo do acucar (seculos XVI-XVII) foi:,Acucar,Ouro,Cafe,Borracha,Algodao,A,2,enem;uerj;espcex;epcar
-183,Historia,Brasil Colonial,A Inconfidencia Mineira (1789) foi um movimento que visava:,Independencia do Brasil,Abolir a escravatura,Instaurar uma republica federada,Expulsar os jesui­tas,Criar uma monarquia constitucional,A,3,enem;uerj;espcex;epcar
+183,Historia,Brasil Colonial,A Inconfidencia Mineira (1789) foi um movimento que visava:,Independencia do Brasil,Abolir a escravatura,Instaurar uma republica federada,Expulsar os jesuiÂ­tas,Criar uma monarquia constitucional,A,3,enem;uerj;espcex;epcar
 184,Historia,Brasil Imperio,A Independencia do Brasil foi proclamada por Dom Pedro I em:,7 de setembro de 1822,7 de setembro de 1889,15 de novembro de 1889,3 de maio de 1808,15 de outubro de 1827,A,2,enem;uerj;espcex;epcar
 185,Historia,Brasil Imperio,A Abolicao da Escravatura no Brasil ocorreu com a assinatura da Lei Aurea em:,13 de maio de 1888,15 de novembro de 1889,7 de setembro de 1822,15 de maio de 1888,13 de maio de 1889,A,1,enem;uerj;espcex;epcar
 186,Historia,Brasil Imperio,O Segundo Reinado brasileiro (1840-1889) foi caracterizado por:,Crescimento economico e Guerra do Paraguai,Golpe militar e industrializacao,Republica Velha e coronelismo,Ditadura Vargas e Estado Novo,Governo JK e Plano de Metas,A,3,enem;uerj;espcex;epcar
@@ -196,7 +196,7 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 195,Historia,Historia Geral,A Segunda Guerra Mundial encerrou-se oficialmente em:,1945,1944,1946,1943,1947,A,1,enem;uerj;espcex;epcar
 196,Historia,Historia Geral,A Guerra Fria caracterizou-se pela disputa entre:,EUA e URSS,EUA e China,URSS e China,EUA e Alemanha,EUA e Japao,A,2,enem;uerj;espcex;epcar
 197,Historia,Historia Geral,O Renascimento Cultural (seculos XIV-XVI) iniciou-se em:,Italia,Franca,Inglaterra,Alemanha,Portugal,A,1,enem;uerj;espcex;epcar
-198,Historia,Historia Geral,As Cruzadas foram expedições militares organizadas pela Igreja Catolica com o objetivo de:,Reconquistar a Terra Santa dos muculmanos,Expandir o comercio europeu,Converter povos pagaos,Combater a heresia protestante,Explorar as Americas,A,3,enem;uerj;espcex;epcar
+198,Historia,Historia Geral,As Cruzadas foram expediÃ§Ãµes militares organizadas pela Igreja Catolica com o objetivo de:,Reconquistar a Terra Santa dos muculmanos,Expandir o comercio europeu,Converter povos pagaos,Combater a heresia protestante,Explorar as Americas,A,3,enem;uerj;espcex;epcar
 199,Historia,Historia Geral,A Revolucao Industrial iniciou-se no seculo XVIII em:,Inglaterra,Franca,Alemanha,Estados Unidos,Belgica,A,1,enem;uerj;espcex;epcar
 200,Historia,Historia Geral,O Iluminismo defendia os valores de:,Razao liberdade e igualdade,Fe misticismo e obediencia,Feudalismo teocracia e servidao,Imperialismo colonialismo e escravidao,Nationalismo militarismo e expansionismo,A,3,enem;uerj;espcex;epcar
 201,Historia,Historia Geral,A queda do Muro de Berlim ocorreu em:,1989,1991,1985,1979,1993,A,1,enem;uerj;espcex;epcar
@@ -230,8 +230,8 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 229,Geografia,Geopolitica,O fenomeno denominado Globalizacao se caracteriza principalmente por:,Integracao economica cultural e financeira mundial,Isolamento entre os paises,Formacao de blocos fechados,Crescimento do protecionalismo,Surgimento de novas nacoes,A,1,enem;uerj;espcex;epcar
 230,Geografia,Recursos Naturais,A Amazonia possui grande importancia ecologica mundial devido a:,Maior biodiversidade do planeta e regulacao climatica,Maior reserva de petroleo do mundo,Maior producao agricola global,Maior concentracao de minerais raros,Maior estoque de agua doce superficial,A,2,enem;uerj;espcex;epcar
 231,Geografia,Geopolitica,A China e considerada uma potencia emergente global principalmente por causa de:,Seu crescimento economico acelerado e tamanho populacional,Sua potencia militar nuclear,Sua lideranca em energia renovavel,Sua democracia consolidada,Sua exportacao de produtos agricolas,A,3,enem;uerj;espcex;epcar
-232,Geografia,Clima,O aquecimento global tem como principal causa antrópica:,Queima de combustiveis fosseis,Desmatamento da Amazonia apenas,Erupcoes vulcanicas,Variacao da atividade solar,Expansao dos desertos,A,2,enem;uerj;espcex;epcar
-233,Geografia,Geomorfologia,As planícies sedimentares costeiras formam-se principalmente por:,Deposicao de sedimentos fluviais e marinhos,Erosao eolica,Tectonismo de placas,Intemperismo quimico,Atividade vulcanica,A,3,enem;uerj;espcex;epcar
+232,Geografia,Clima,O aquecimento global tem como principal causa antrÃ³pica:,Queima de combustiveis fosseis,Desmatamento da Amazonia apenas,Erupcoes vulcanicas,Variacao da atividade solar,Expansao dos desertos,A,2,enem;uerj;espcex;epcar
+233,Geografia,Geomorfologia,As planÃ­cies sedimentares costeiras formam-se principalmente por:,Deposicao de sedimentos fluviais e marinhos,Erosao eolica,Tectonismo de placas,Intemperismo quimico,Atividade vulcanica,A,3,enem;uerj;espcex;epcar
 234,Geografia,Brasil Fisico,O Brasil possui o maior numero de usinas hidreletricas do mundo devido a:,Sua extensa rede hidrologica e relevo propicio,Ausencia de reservas de petroleo,Baixo custo de construcao,Tecnologia nacional avancada,Baixa densidade demografica,A,3,enem;uerj;espcex;epcar
 235,Geografia,Geopolitica,O processo de descolonizacao africana intensificou-se apos:,A Segunda Guerra Mundial (pos-1945),A Primeira Guerra Mundial,A Revolucao Industrial,A Guerra Fria terminar,O seculo XIX,A,3,enem;uerj;espcex;epcar
 236,Geografia,Urbanizacao,O Brasil e um pais considerado urbanizado pois possui aproximadamente:,85% da populacao vivendo em areas urbanas,50% em areas urbanas,30% em areas urbanas,70% em areas rurais,60% em areas rurais,A,2,enem;uerj;espcex;epcar
@@ -261,16 +261,16 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 260,Ingles,Grammar,The gerund form of 'swim' is:,swimming,swimmed,swam,swum,swiming,A,2,uerj;espcex;efomm;epcar;colegio_naval
 261,Ingles,Reading Comprehension,In English the prefix 'un-' in words like 'unhappy' and 'unlikely' indicates:,Negation or opposite,Repetition,Excess,Before,Again,A,1,uerj;espcex;efomm;epcar;colegio_naval
 262,Ingles,Grammar,Choose the correct sentence using 'used to':,I used to play tennis when I was young,I use to play tennis when I was young,I am used to play tennis,I used play tennis when I was young,I was used to play tennis,A,3,uerj;espcex;efomm;epcar;colegio_naval
-263,Ciencias,Biologia Basica,A fotossintese e realizada pelas plantas e consiste em transformar:,Luz solar CO₂ e agua em glicose e oxigenio,Glicose e oxigenio em CO₂ e agua,Nitrogenio em proteinas,Minerais em vitaminas,Agua em O₂ apenas,A,1,colegio_naval
+263,Ciencias,Biologia Basica,A fotossintese e realizada pelas plantas e consiste em transformar:,Luz solar COâ‚‚ e agua em glicose e oxigenio,Glicose e oxigenio em COâ‚‚ e agua,Nitrogenio em proteinas,Minerais em vitaminas,Agua em Oâ‚‚ apenas,A,1,colegio_naval
 264,Ciencias,Biologia Basica,Os seres vivos sao classificados em reinos. As bacterias pertencem ao reino:,Monera,Fungi,Protista,Animalia,Plantae,A,2,colegio_naval
 265,Ciencias,Biologia Basica,A celula animal e diferente da vegetal por nao possuir:,Parede celular e cloroplasto,Nucleo,Mitocondria,Membrana plasmatica,Ribossomo,A,1,colegio_naval
 266,Ciencias,Biologia Basica,O sistema respiratorio humano e responsavel por:,Captar oxigenio e eliminar dioxido de carbono,Digerir os alimentos,Transportar nutrientes pelo corpo,Filtrar o sangue,Produzir hormonios,A,2,colegio_naval
 267,Ciencias,Biologia Basica,As vacinas previnem doencas porque:,Estimulam o sistema imunologico a produzir anticorpos,Matam bacterias diretamente,Aumentam a temperatura do corpo,Eliminam virus do sangue,Fornecem antibioticos,A,1,colegio_naval
-268,Ciencias,Biologia Basica,O coração humano e dividido em quantas camaras?,4,2,3,6,8,A,2,colegio_naval
+268,Ciencias,Biologia Basica,O coraÃ§Ã£o humano e dividido em quantas camaras?,4,2,3,6,8,A,2,colegio_naval
 269,Ciencias,Biologia Basica,A AIDS e causada pelo virus:,HIV,HPV,H1N1,Ebola,Dengue,A,1,colegio_naval
 270,Ciencias,Biologia Basica,Os genes sao formados por:,DNA (acido desoxirribonucleico),RNA apenas,Proteinas,Lipideos,Carboidratos,A,2,colegio_naval
 271,Ciencias,Fisica Basica,A velocidade de um carro que percorre 100 km em 2 horas e:,50 km/h,200 km/h,100 km/h,25 km/h,150 km/h,A,1,colegio_naval
-272,Ciencias,Fisica Basica,A agua ferve a 100°C ao nivel do mar. Em Kelvin isso equivale a:,373 K,100 K,273 K,473 K,200 K,A,2,colegio_naval
+272,Ciencias,Fisica Basica,A agua ferve a 100Â°C ao nivel do mar. Em Kelvin isso equivale a:,373 K,100 K,273 K,473 K,200 K,A,2,colegio_naval
 273,Ciencias,Fisica Basica,A energia potencial gravitacional depende da:,Massa e altura do objeto,Velocidade e massa,Temperatura e pressao,Cor e material,Forma do objeto,A,1,colegio_naval
 274,Ciencias,Fisica Basica,O fenomeno em que um raio de luz muda de direcao ao passar de um meio para outro e chamado de:,Refracao,Reflexao,Difracao,Absorcao,Polarizacao,A,2,colegio_naval
 275,Ciencias,Fisica Basica,A unidade de medida de potencia eletrica no Sistema Internacional e o:,Watt (W),Joule (J),Newton (N),Ampere (A),Volt (V),A,1,colegio_naval
@@ -283,7 +283,7 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 282,Ciencias,Quimica Basica,A tabela periodica organiza os elementos quimicos em ordem crescente de:,Numero atomico (quantidade de protons),Massa atomica,Tamanho do atomo,Estado fisico,Eletronegatividade,A,2,colegio_naval
 283,Ciencias,Quimica Basica,A mistura de agua e sal de cozinha (NaCl) pode ser separada pelo processo de:,Evaporacao (destilacao simples),Filtracao,Decantacao,Centrifugacao,Flotacao,A,1,colegio_naval
 284,Ciencias,Quimica Basica,O pH de uma solucao acida e:,Menor que 7,Igual a 7,Maior que 7,Igual a 14,Igual a 0,A,2,colegio_naval
-285,Ciencias,Quimica Basica,A combustao do gas natural (metano CH₄) produz:,CO₂ e H₂O,CO e H₂,C e H₂O,CO₂ e H₂,CH₄ e O₂,A,1,colegio_naval
+285,Ciencias,Quimica Basica,A combustao do gas natural (metano CHâ‚„) produz:,COâ‚‚ e Hâ‚‚O,CO e Hâ‚‚,C e Hâ‚‚O,COâ‚‚ e Hâ‚‚,CHâ‚„ e Oâ‚‚,A,1,colegio_naval
 286,Estudos_Sociais,Historia Brasil,O Brasil foi colonizado por:,Portugal,Espanha,Franca,Holanda,Inglaterra,A,2,colegio_naval
 287,Estudos_Sociais,Historia Brasil,A capital do Brasil e:,Brasilia,Rio de Janeiro,Sao Paulo,Salvador,Belo Horizonte,A,1,colegio_naval
 288,Estudos_Sociais,Historia Brasil,O Brasil tornou-se independente de Portugal em:,1822,1889,1808,1500,1888,A,2,colegio_naval
@@ -299,9 +299,9 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 298,Estudos_Sociais,Geografia,A lingua oficial do Brasil e o:,Portugues,Espanhol,Ingles,Frances,Italiano,A,2,colegio_naval
 299,Estudos_Sociais,Historia Geral,A internet foi criada originalmente como projeto:,Militar norte-americano (ARPANET),Comercial europeu,Academico brasileiro,Cientifico japones,Cultural frances,A,3,colegio_naval
 300,Estudos_Sociais,Historia Brasil,A Proclamacao da Republica no Brasil foi liderada por:,Marechal Deodoro da Fonseca,Dom Pedro II,Getulio Vargas,Tiradentes,Jose Bonifacio,A,2,colegio_naval
-301,Matematica,Geometria Plana,"Observe a figura do triangulo retangulo e escolha a alternativa correta sobre o cateto desconhecido:","[IMG] https://upload.wikimedia.org/wikipedia/commons/2/2e/Triangle.Right.svg - 12 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/2/2e/Triangle.Right.svg - 10 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/2/2e/Triangle.Right.svg - 9 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/2/2e/Triangle.Right.svg - 8 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/2/2e/Triangle.Right.svg - 6 cm",B,3,enem;uerj;espcex;efomm;epcar;cbmerj
+301,Matematica,Geometria Plana,"Observe a figura do triangulo retangulo e escolha a alternativa correta sobre o cateto desconhecido:","[IMG] https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png - 12 cm","[IMG] https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png - 10 cm","[IMG] https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png - 9 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Triangle.Right.svg/640px-Triangle.Right.svg.png - 8 cm","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Triangle.Right.svg/640px-Triangle.Right.svg.png - 6 cm",B,3,enem;uerj;espcex;efomm;epcar;cbmerj
 302,Matematica,Estatistica,"No grafico de barras da imagem, a maior frequencia corresponde a:","Turma A","Turma B","Turma C","Turma D","Turma E",C,2,enem;uerj;cbmerj
-303,Fisica,Optica,"Analise o diagrama de raios da imagem e indique o tipo de lente:","[IMG] https://upload.wikimedia.org/wikipedia/commons/7/72/Convex_lens.svg - divergente","[IMG] https://upload.wikimedia.org/wikipedia/commons/7/72/Convex_lens.svg - convergente","[IMG] https://upload.wikimedia.org/wikipedia/commons/7/72/Convex_lens.svg - plana","[IMG] https://upload.wikimedia.org/wikipedia/commons/7/72/Convex_lens.svg - acromatica","[IMG] https://upload.wikimedia.org/wikipedia/commons/7/72/Convex_lens.svg - cilindrica",B,4,enem;espcex;efomm;epcar
+303,Fisica,Optica,"Analise o diagrama de raios da imagem e indique o tipo de lente:","https://labetno.ufpa.br/images/galeria_em_artigos/image03_grd.png - divergente","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Convex_lens.svg/640px-Convex_lens.svg.png - convergente","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Convex_lens.svg/640px-Convex_lens.svg.png - plana","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Convex_lens.svg/640px-Convex_lens.svg.png - acromatica","[IMG] https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Convex_lens.svg/640px-Convex_lens.svg.png - cilindrica",B,4,enem;espcex;efomm;epcar
 304,Fisica,Mecanica,"Um bloco em plano inclinado (imagem) desliza sem atrito. A aceleracao depende de:","massa do bloco","angulo do plano","comprimento do plano","area de contato","cor da superficie",B,3,enem;espcex;efomm
 305,Portugues,Interpretacao,"Leia o infografico da imagem e escolha a inferencia correta:","A taxa caiu em todos os anos","A taxa cresceu apenas no ultimo ano","A taxa ficou constante","Nao houve dados para comparacao","A taxa dobrou no periodo",B,4,enem;uerj;cbmerj
 306,Portugues,Gramatica,"Na frase da imagem, a concordancia nominal correta e:","meio-dia e meia","meio-dia e meio","meio-dia e meios","meio dia e meia","meio-dia e meias",A,2,enem;uerj;cbmerj
@@ -314,3 +314,4 @@ id,disciplina,assunto,texto,A,B,C,D,E,gabarito,dificuldade,modelos
 313,Ciencias,Astronomia,"Observe a imagem do sistema solar e marque o planeta mais proximo do Sol:","Venus","Terra","Mercurio","Marte","Jupiter",C,1,colegio_naval
 314,Estudos_Sociais,Historia Geral,"A foto historica exibida na imagem refere-se a qual periodo:","Guerra Fria","Idade Media","Renascimento","Antiguidade Classica","Iluminismo",A,3,colegio_naval
 315,Matematica,Probabilidade,"A roleta da imagem possui 8 setores iguais, sendo 3 vermelhos. A probabilidade de sair vermelho e:","1/8","3/8","1/2","5/8","3/5",B,2,enem;uerj;espcex;efomm;epcar;cbmerj
+

@@ -33,11 +33,18 @@ NOMES_NIVEL = {
 assuntos_disponiveis: dict[str, list[str]] = {}
 
 
-def log(msg: str) -> None:
+def _append_log(msg: str) -> None:
     area_log.configure(state="normal")
     area_log.insert(tk.END, msg + "\n")
     area_log.see(tk.END)
     area_log.configure(state="disabled")
+
+
+def log(msg: str) -> None:
+    if threading.current_thread() is threading.main_thread():
+        _append_log(msg)
+    else:
+        app.after(0, lambda m=msg: _append_log(m))
 
 
 def escolher_csv() -> None:
@@ -356,7 +363,7 @@ def executar_validacao() -> None:
             for e in erros:
                 log(f"  {e}")
         if avisos:
-            log("Aviso - distribuição aproximada (geração prossegue):")
+            log("Aviso - distribuição por dificuldade inviável no formato atual (bloqueia geração):")
             for a in avisos:
                 log(f"  {a}")
         if not erros and not avisos:
@@ -380,9 +387,10 @@ def _thread_gerar(
     csv_path: str,
     modelo_nome: str,
     semente: int | None,
-    dist: dict[int, float],
-    regras_assunto: dict[str, dict[str, int]],
+    dist: dict[int, float] | None,
+    regras_assunto: dict[str, dict[str, int]] | None,
     aplicar_distribuicao: bool,
+    modo_desenvolvedor: bool,
 ) -> None:
     log(
         f"\n-> Gerando {modelo_nome.upper()} | "
@@ -396,6 +404,7 @@ def _thread_gerar(
             dist,
             regras_assunto,
             aplicar_distribuicao,
+            modo_desenvolvedor,
         )
         pasta = arquivos[0].parent.name
         log(f"✓ Pasta: {pasta}")
@@ -436,11 +445,20 @@ def executar_geracao() -> None:
     semente_txt = entrada_semente.get().strip()
     semente = int(semente_txt) if semente_txt.isdigit() else None
     modelo_nome = combo_banca.get()
+    modo_desenvolvedor = modo_desenvolvedor_var.get()
 
     btn_gerar.configure(state="disabled")
     threading.Thread(
         target=_thread_gerar,
-        args=(csv_path, modelo_nome, semente, dist, regras_assunto, aplicar_distribuicao),
+        args=(
+            csv_path,
+            modelo_nome,
+            semente,
+            dist,
+            regras_assunto,
+            aplicar_distribuicao,
+            modo_desenvolvedor,
+        ),
         daemon=True,
     ).start()
 
@@ -636,6 +654,26 @@ area_log.grid(row=8, column=0, columnspan=3, sticky="nsew")
 
 btn_gerar = ttk.Button(frame, text="GERAR PROVA", command=executar_geracao)
 btn_gerar.grid(row=9, column=0, columnspan=3, pady=10)
+
+modo_desenvolvedor_var = tk.BooleanVar(value=False)
+
+
+def alternar_modo_desenvolvedor() -> None:
+    novo_estado = not modo_desenvolvedor_var.get()
+    modo_desenvolvedor_var.set(novo_estado)
+    texto = "ATIVADO" if novo_estado else "DESATIVADO"
+    cor = "#1f6b2a" if novo_estado else "#8a1f11"
+    lbl_modo_desenvolvedor.configure(text=f"Modo desenvolvedor: {texto}", foreground=cor)
+
+
+ttk.Button(
+    frame,
+    text="Alternar modo desenvolvedor",
+    command=alternar_modo_desenvolvedor,
+).grid(row=10, column=0, sticky="w", pady=(0, 10))
+
+lbl_modo_desenvolvedor = ttk.Label(frame, text="Modo desenvolvedor: DESATIVADO", foreground="#8a1f11")
+lbl_modo_desenvolvedor.grid(row=10, column=1, columnspan=2, sticky="w", pady=(0, 10))
 
 frame.columnconfigure(1, weight=1)
 frame.columnconfigure(2, weight=1)

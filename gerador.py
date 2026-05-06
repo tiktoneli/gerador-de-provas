@@ -1,7 +1,11 @@
+import io
 import json
 import random
+import re
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlparse
+from urllib.request import urlopen
 
 import pandas as pd
 from docx import Document
@@ -28,12 +32,26 @@ def carregar_banco(caminho_csv: str | Path) -> pd.DataFrame:
         raise ValueError(f"Colunas ausentes no CSV: {', '.join(sorted(faltando))}")
     df["modelos"] = df["modelos"].fillna("")
     df["E"] = df["E"].fillna("")
+    df["id"] = df["id"].fillna("").astype(str).str.strip()
+    if (df["id"] == "").any():
+        raise ValueError("Há questões com ID vazio. Preencha a coluna 'id' em todas as linhas.")
+    duplicados = df["id"].duplicated(keep=False)
+    if duplicados.any():
+        ids_dup = ", ".join(sorted(df.loc[duplicados, "id"].unique())[:10])
+        raise ValueError(f"IDs duplicados no CSV: {ids_dup}")
     df["dificuldade"] = pd.to_numeric(df["dificuldade"], errors="coerce").astype("Int64")
     invalidas = df["dificuldade"].isna() | ~df["dificuldade"].between(1, 5)
     if invalidas.any():
         raise ValueError(
             f"Dificuldade inválida em {invalidas.sum()} questão(ões). Use inteiros de 1 a 5."
         )
+    gabarito = df["gabarito"].fillna("").astype(str).str.strip().str.upper()
+    invalidos_gabarito = ~gabarito.isin(["A", "B", "C", "D", "E"])
+    if invalidos_gabarito.any():
+        raise ValueError(
+            f"Gabarito inválido em {invalidos_gabarito.sum()} questão(ões). Use apenas A, B, C, D ou E."
+        )
+    df["gabarito"] = gabarito
     return df
 
 
@@ -95,6 +113,13 @@ def _filtrar_por_assunto(pool: pd.DataFrame, bloco: dict) -> pd.DataFrame:
     return pool[pool["assunto"].fillna("").str.strip().str.lower().isin(assuntos)]
 
 
+def _questao_tem_imagem(row: dict) -> bool:
+    campos = [str(row.get("texto", ""))]
+    for letra in ("A", "B", "C", "D", "E"):
+        campos.append(str(row.get(letra, "")))
+    return any("[img]" in campo.lower() for campo in campos)
+
+
 def _normalizar_regras_assunto(
     regras_assunto: dict[str, dict[str, int]] | None,
 ) -> dict[str, dict[str, int]]:
@@ -129,6 +154,7 @@ def _selecionar_questoes(
     usadas: set[str],
     regras_assunto: dict[str, dict[str, int]] | None = None,
     aplicar_distribuicao: bool = True,
+    forcar_questao_imagem: bool = False,
 ) -> list[dict]:
     """Selects questions by difficulty distribution."""
     pool_valido = pool[
@@ -177,6 +203,21 @@ def _selecionar_questoes(
         escolhidos = rng.sample(grupo, cota)
         selecionadas.extend(escolhidos)
         ids_sel.update(str(q["id"]) for q in escolhidos)
+
+    if forcar_questao_imagem and selecionadas and not any(_questao_tem_imagem(q) for q in selecionadas):
+        candidatas_img = [
+            q
+            for q in pool_valido.to_dict("records")
+            if _questao_tem_imagem(q) and str(q["id"]) not in ids_sel
+        ]
+        if candidatas_img:
+            removida = selecionadas[-1]
+            nivel_removida = removida.get("dificuldade")
+            mesma_dif = [q for q in candidatas_img if q.get("dificuldade") == nivel_removida]
+            escolhida = rng.choice(mesma_dif if mesma_dif else candidatas_img)
+            selecionadas[-1] = escolhida
+            ids_sel.discard(str(removida["id"]))
+            ids_sel.add(str(escolhida["id"]))
 
     return selecionadas
 
@@ -294,6 +335,39 @@ def _adicionar_titulo_bloco(doc: Document, texto: str) -> None:
     run.font.size = Pt(12)
 
 
+IMG_PATTERN = re.compile(r"^\s*\[IMG\]\s*(\S+)(?:\s*-\s*(.*))?\s*$", re.IGNORECASE)
+
+
+def _extrair_midia_alternativa(texto_alt: str) -> tuple[str, str] | None:
+    match = IMG_PATTERN.match(texto_alt or "")
+    if not match:
+        return None
+    origem = match.group(1).strip()
+    legenda = (match.group(2) or "").strip()
+    if not origem:
+        return None
+    return origem, legenda
+
+
+def _carregar_imagem_bytes(origem: str) -> io.BytesIO:
+    parsed = urlparse(origem)
+    if parsed.scheme in ("http", "https"):
+        with urlopen(origem, timeout=10) as resp:  # nosec B310
+            content_type = (resp.headers.get("Content-Type") or "").lower()
+            data = resp.read()
+        if "svg" in content_type or origem.lower().endswith(".svg"):
+            raise ValueError("SVG não é suportado diretamente pelo python-docx.")
+        return io.BytesIO(data)
+    caminho = Path(origem)
+    if not caminho.is_absolute():
+        caminho = BASE_DIR / caminho
+    if caminho.suffix.lower() == ".svg":
+        raise ValueError("SVG não é suportado diretamente pelo python-docx.")
+    if not caminho.exists():
+        raise FileNotFoundError(f"Imagem não encontrada: {caminho}")
+    return io.BytesIO(caminho.read_bytes())
+
+
 def _adicionar_questao(doc: Document, row: dict, numero: int, letras: list[str]) -> None:
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(8)
@@ -302,11 +376,37 @@ def _adicionar_questao(doc: Document, row: dict, numero: int, letras: list[str])
     for letra in letras:
         texto_alt = str(row.get(letra, "")).strip()
         if texto_alt:
-            alt = doc.add_paragraph(f"({letra}) {texto_alt}")
-            alt.paragraph_format.left_indent = Cm(1)
-            alt.paragraph_format.space_after = Pt(2)
-            for r in alt.runs:
-                r.font.size = Pt(11)
+            midia = _extrair_midia_alternativa(texto_alt)
+            if midia:
+                origem, legenda = midia
+                alt = doc.add_paragraph(f"({letra}) {legenda}" if legenda else f"({letra})")
+                alt.paragraph_format.left_indent = Cm(1)
+                alt.paragraph_format.space_after = Pt(2)
+                for r in alt.runs:
+                    r.font.size = Pt(11)
+                try:
+                    img_bytes = _carregar_imagem_bytes(origem)
+                    p_img = doc.add_paragraph()
+                    p_img.paragraph_format.left_indent = Cm(1.4)
+                    run_img = p_img.add_run()
+                    run_img.add_picture(img_bytes, width=Cm(6.0))
+                except Exception as e:
+                    p_fallback = doc.add_paragraph(f"[imagem não renderizada: {origem}]")
+                    p_fallback.paragraph_format.left_indent = Cm(1.4)
+                    p_fallback.paragraph_format.space_after = Pt(2)
+                    for r in p_fallback.runs:
+                        r.font.size = Pt(10)
+                    p_erro = doc.add_paragraph(f"Motivo: {e}")
+                    p_erro.paragraph_format.left_indent = Cm(1.4)
+                    p_erro.paragraph_format.space_after = Pt(2)
+                    for r in p_erro.runs:
+                        r.font.size = Pt(9)
+            else:
+                alt = doc.add_paragraph(f"({letra}) {texto_alt}")
+                alt.paragraph_format.left_indent = Cm(1)
+                alt.paragraph_format.space_after = Pt(2)
+                for r in alt.runs:
+                    r.font.size = Pt(11)
 
     doc.add_paragraph()
 
@@ -335,6 +435,7 @@ def gerar_prova(
     distribuicao_override: dict[int, float] | None = None,
     regras_assunto: dict[str, dict[str, int]] | None = None,
     aplicar_distribuicao: bool = True,
+    modo_desenvolvedor: bool = False,
 ) -> list[Path]:
     """Gera cadernos de prova e gabarito numa pasta timestamped. Retorna arquivos criados."""
     config = carregar_config()
@@ -398,6 +499,7 @@ def gerar_prova(
                 usadas,
                 regras_assunto,
                 aplicar_distribuicao,
+                forcar_questao_imagem=modo_desenvolvedor,
             )
             _adicionar_titulo_bloco(doc, bloco["exibicao"])
             for q in selecionadas:
