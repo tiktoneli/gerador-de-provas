@@ -97,7 +97,13 @@ def _soma_distribuicao_informada() -> int:
     return soma
 
 
-def _atualizar_contador_distribuicao(event=None) -> None:
+def _atualizar_contador_distribuicao(*args) -> None:
+    if ignorar_dificuldade_var.get():
+        lbl_contador_dist.configure(
+            text="Distribuição não aplicada (modo livre).",
+            foreground="#888888",
+        )
+        return
     modelo_nome = combo_banca.get()
     total = _total_questoes_modelo(modelo_nome)
     soma = _soma_distribuicao_informada()
@@ -113,9 +119,19 @@ def _atualizar_contador_distribuicao(event=None) -> None:
         )
     else:
         lbl_contador_dist.configure(
-            text=f"Distribuição completa: {soma}/{total} questões.",
+            text=f"✓ Distribuição completa: {soma}/{total} questões.",
             foreground="#1f6b2a",
         )
+
+
+def _atualizar_estado_distribuicao(*args) -> None:
+    """Enables/disables distribution fields based on the 'relevar' checkbox."""
+    relevar = ignorar_dificuldade_var.get()
+    state = "disabled" if relevar else "normal"
+    for ent in dist_entries.values():
+        ent.configure(state=state)
+    btn_reset_dist.configure(state=state)
+    _atualizar_contador_distribuicao()
 
 
 def _compativel_modelo(modelos_txt: str, modelo_nome: str) -> bool:
@@ -309,7 +325,7 @@ def atualizar_painel_distribuicao(event=None) -> None:
             dist_qtd_labels[nivel].grid_remove()
 
     btn_reset_dist.configure(command=lambda: atualizar_painel_distribuicao())
-    _atualizar_contador_distribuicao()
+    _atualizar_estado_distribuicao()
 
 
 def executar_validacao() -> None:
@@ -548,6 +564,7 @@ for i, nivel in enumerate(range(1, 6)):
     dist_qtd_labels[nivel] = qtd_lbl
 
 ignorar_dificuldade_var = tk.BooleanVar(value=False)
+ignorar_dificuldade_var.trace_add("write", _atualizar_estado_distribuicao)
 ttk.Checkbutton(
     frame_dist,
     text="Relevar distribuição de dificuldades",
